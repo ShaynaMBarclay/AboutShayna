@@ -1,4 +1,41 @@
 #root {
- 
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
 }
 
+main {
+    color: #000000;
+    background-color: rgba(237, 220, 234, 0.603);
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+.navbar {
+    background-color: #ed4fa0;
+    width: 120px; /* Sidebar width */
+    height: 100%; /* Full height */
+    position: fixed; /* Fix the navbar on the left */
+    top: 0;
+    left: 0;
+    padding-top: 20px; /* Space from top */
+}
+
+.navbar-links {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Flexbox to align vertically */
+    flex-direction: column;
+  }
+
+ 
+
+.footer {
+    background-color:#6b0644;
+}
+  
