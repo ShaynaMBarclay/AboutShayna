@@ -3,7 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import AboutMe from "./assets/pages/AboutMe";
 import Blog from "./assets/pages/Blog";
-import Contact from "./assets/pages/contact";
+import Contact from "./assets/pages/Contact";
 import HomePage from "./assets/pages/HomePage";
 import Projects from "./assets/pages/Projects";
 import Skills from "./assets/pages/Skills";
@@ -14,14 +14,13 @@ import SkillBadge from "./assets/components/SkillBadge";
 //import axios from "axios";
 
 function App() {
-
-  
   return (
     <>
-      <h1>This is Shayna's resume</h1>
-      <main>
-        <Navbar classname="navbar" />
-        <SkillBadge classname="skillbadge" />
+    <Navbar className="navbar" />
+
+    <main>
+    <h1>Shayna's Resume</h1>
+    
         <Routes>
           <Route path= "/" element={<HomePage />} />
           <Route path= "/about-me" element={<AboutMe />} />
@@ -31,10 +30,10 @@ function App() {
           <Route path = "/skills" element={<Skills />} />
         </Routes>
       </main>
+
       <Footer />
-       
     </>
-  )
+  );
 }
 
-export default App
+export default App;

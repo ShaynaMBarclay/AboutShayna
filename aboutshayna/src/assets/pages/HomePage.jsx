@@ -1,12 +1,10 @@
-const HomePage = () => {
-
-
-
-return (
-    <div className="homepage">
-        <h1> Shaynas Resume </h1>
-    </div>
-)
+function HomePage() {
+    return (
+        <div>
+            <h2>Home Page</h2>
+            <p>This is the home page.</p>
+        </div>
+    );
 }
 
 export default HomePage;
