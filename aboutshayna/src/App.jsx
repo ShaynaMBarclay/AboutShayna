@@ -7,7 +7,6 @@ import Contact from "./assets/pages/Contact";
 import HomePage from "./assets/pages/HomePage";
 import Projects from "./assets/pages/Projects";
 import Skills from "./assets/pages/Skills";
-import Footer from "./assets/components/Footer";
 import Navbar from "./assets/components/Navbar";
 import SkillBadge from "./assets/components/SkillBadge";
 //import { useEffect, useState } from "react";
@@ -30,8 +29,6 @@ function App() {
           <Route path = "/skills" element={<Skills />} />
         </Routes>
       </main>
-
-      <Footer />
     </>
   );
 }
