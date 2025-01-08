@@ -8,7 +8,9 @@ function Navbar() {
         <nav className= "navbar">
             {/* Profile Picture*/}
             <div className="navbar-logo">
+                <Link to="/">
                 <img src={pfp} alt="Profile" />
+                </Link>
                 </div>
 
             <ul className= "navbar-links">

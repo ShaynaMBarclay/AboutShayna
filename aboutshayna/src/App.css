@@ -1,18 +1,74 @@
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
 }
 
 main {
-    color: #000000;
-    background-color: rgba(237, 220, 234, 0.603);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.603);
+    padding: 20px;
+    margin-left: 170px;
   }
 
   body {
     font-size: 20px;
+    margin: 0;
+  }
+
+  .hero {
+    border: 2px solid rgb(104, 104, 104);
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin: 80px;
+    padding: 40px;
+    background-color: #6a6a6a;
+    overflow-y: auto;
+  }
+
+  .hero h1 {
+    font-family: "Roboto Mono", serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-family: "Roboto Mono", serif;
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .hero p {
+    font-family: "Roboto Condensed", serif;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .see-more-link {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  .see-more-link:hover {
+    color: rgb(86, 86, 86);
+    cursor: pointer;
   }
 
 .navbar {
@@ -38,6 +94,7 @@ main {
     display: flex; 
     flex-direction: column;
     gap: 10px;
+    font-family: "Roboto Condensed", serif;
   }
 
   .navbar-links a {
@@ -55,7 +112,8 @@ main {
 
   .navbar-links a:hover {
     background-color: rgb(86, 86, 86);
-    transform: translateX(5px);
+    transform: translateX(5px) scale(1.1);
+    font-size: 17px;
   }
   .nabvar-links svg {
     font-size: 1.2em;
@@ -79,8 +137,4 @@ main {
 }
 
  
-
-.footer {
-    background-color:#6b0644;
-}
   

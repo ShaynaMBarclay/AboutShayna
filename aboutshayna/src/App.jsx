@@ -18,8 +18,6 @@ function App() {
     <Navbar />
 
     <main>
-    <h1>Shayna's Resume</h1>
-
         <Routes>
           <Route path= "/" element={<HomePage />} />
           <Route path= "/about-me" element={<AboutMe />} />
