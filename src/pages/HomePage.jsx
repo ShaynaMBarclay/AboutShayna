@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import pfp from '../assets/pfpblacknwhite.jpg';
+import resume from "../assets/resume.pdf";
 
 function HomePage() {
     return (
@@ -10,14 +11,20 @@ function HomePage() {
               <section className="middle-hero">
                 <img src={pfp} alt="Shayna's Profile" className="profile-picture" />
 
+
                 <h2> I am a Full-Stack Web Developer with a love for creativity and innovation.</h2>
                 </section>
 
-                {/*<p>I'm a passionate Full-Stack Web Developer specializing in creating responsive and user-friendly web applications.
-                   I enjoy turning ideas into interactive digital experiences, with strong communication and customer support. Let's build something amazing together!
-                   </p>
-                   <p> */}
+              <section className="buttons-homepage">
                    <Link to="/about-me" className="see-more-link"> About Me</Link> 
+                   <a
+                       href={resume}
+                       download="Shayna_Resume"
+                       className="download-button"
+                       >
+                        Download my Resume
+                       </a>
+                       </section>
                
             </section>
             
