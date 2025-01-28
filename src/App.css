@@ -113,7 +113,7 @@ body {
   }
 
   .download-button:hover {
-    color:  #70405d;
+    color:  #000000;
     background-color: #da99c0af;
     transform: scale(1.1); 
     cursor: pointer;
@@ -197,29 +197,41 @@ body {
 .about-me {
   overflow: visible;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: row;
   color: rgb(0, 0, 0);
   margin: 40px 230px;
   padding: 90px 80px;
-  overflow-y: auto;
   font-family: "Roboto Mono", serif;
   font-size: 20px;
-  text-align: center;
+  gap: 30px;
+}
+
+
+
+.skills-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills-boxes {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 15px;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skill-box {
+  width: 200px;
+  height: 200px;
   padding: 10px 15px;
   border: 2px solid #000000;
   border-radius: 8px;
   background-color: #c592b0cc;
+  font-size: 25px;
   font-weight: bold;
   font-family: "Roboto Mono", serif;
   text-align: center;
@@ -233,16 +245,15 @@ body {
 }
 
 .skill-icon {
-  font-size: 25px; 
+  font-size: 40px; 
   color: #853565db; 
 }
 
 .divider {
-  border: 0; 
-  height: 2px; 
-  background-color: #ccc; 
-  margin: 20px 0; 
+  width: 20px; 
+  background-color: #000000;  
   align-self: stretch;
+  margin: 0 15px;
 }
 
 .skill-badge-container {
