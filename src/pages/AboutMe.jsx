@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FaLightbulb, FaSyncAlt, FaHardHat, FaRocket } from "react-icons/fa";
 function AboutMe() {
     return (
@@ -29,6 +30,9 @@ function AboutMe() {
                         <FaRocket className="skill-icon" />
                             Dedicated
                        </div>
+                        
+                   <Link to="/contact" className="button-aboutme">Contact Me!</Link> 
+                   
                     </div>
                 </div>
             </section>
