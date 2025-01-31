@@ -1,5 +1,7 @@
 import SkillBadge from "../components/SkillBadge";
-import colorwheel from "../assets/color-wheel.png"
+import colorwheel from "../assets/color-wheel.png";
+import frontend from "../assets/frontend.png";
+import backend from "../assets/backend.png";
 
 function Skills() {
     return (
@@ -39,6 +41,16 @@ function Skills() {
   label="Color Theory" 
   icon={colorwheel}
   level="Expert"
+  />
+  <SkillBadge
+  label="Frontend"
+  icon={frontend}
+  level="Intermediate"
+  />
+  <SkillBadge
+  label="Backend"
+  icon={backend}
+  level="Intermediate"
   />
       </div>
       </div>

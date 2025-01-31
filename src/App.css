@@ -281,26 +281,33 @@ body {
   transform: scale(1.1); 
   cursor: pointer;
 }
+
 /* SKILLS */
 
 .webdevskills {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    align-content: flex-start;
-    margin: 150px 350px 350px 100px;
-    padding: 25px 25px 25px 25px;
-    background-color: #56394a;
+    justify-content: flex-start;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: #b2689460;
+    border: 3px solid #000000;
+    border-radius: 70px;
+    font-family: "Roboto Mono", serif;
+    max-width: 1200px;
+    width: 50%;
+    box-sizing: border-box;
 }
 
 .skill-badge {
   display: grid;
-  grid-template-columns: repeat(3, minmax(150px, 1fr)); /* Creates 2 equal columns */
+  grid-template-columns: repeat(3,1fr);
   gap: 20px; 
-  justify-content: center;
+  justify-items: center;
   align-items: center;
-  margin: 0 auto; /* Centers the section */
+  width: 100%;
+  margin-top: 0;
 }
 
 .skill-badge h2 {
@@ -321,12 +328,17 @@ body {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
-  font-size: 13px;
+  font-size: 11px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-badge .badge:hover {
+  transform: scale(1.10); 
 }
 
 .skill-badge .badge img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   margin-bottom: 5px;
   object-fit: contain;
 }
