@@ -340,21 +340,78 @@ body {
 /* CONTACT */
 
 .contact-page {
-  border-radius: 90px;
+  max-width: 900px; /* Adjust width */
+  margin: auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Contact Information */
+.contact-info {
+  flex: 1;
+  text-align: center;
+  font-size: 20px;
+  background-color: #dca0c4;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  font-family: "Roboto Mono", serif;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+/* Contact Form */
+.contact-form-container {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border: 3px solid #000000;
+  border-radius: 25px;
+  font-family: "Roboto Mono", serif;
+}
+
+.contact-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgb(255, 255, 255);
-  margin: 80px;
-  padding: 40px;
-  background-color: #855873;
-  overflow-y: auto;
-  font-family: "Roboto Mono", serif;
-  font-size: 20px;
-  text-align: center;
-  border: 2px solid rgb(104, 104, 104);
+  gap: 10px;
 }
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #be4d91;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Roboto Mono", serif;
+}
+
+button:hover {
+  background-color: #a03c77;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+}
+
 
 /* PROJECTS AND MODAL */
 
