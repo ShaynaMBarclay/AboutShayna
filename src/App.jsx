@@ -8,10 +8,12 @@ import Skills from "./pages/Skills";
 import Navbar from "./components/Navbar";
 
 
+
 function App() {
   return (
     <>
     <Navbar />
+   
 
     <main>
         <Routes>
@@ -22,6 +24,8 @@ function App() {
           <Route path = "/skills" element={<Skills />} />
         </Routes>
       </main>
+
+
     </>
   );
 }
