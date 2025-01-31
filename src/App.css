@@ -20,7 +20,7 @@ body {
     color: rgb(0, 0, 0);
     height: auto;
     margin-top: 60px;
-    margin-bottom: 150px;
+    margin-bottom: 0;
     margin-left: 250px;
     margin-right: 250px;
     max-width: 1200px;
@@ -201,7 +201,8 @@ body {
   justify-content: center;
   flex-direction: row;
   color: rgb(0, 0, 0);
-  margin: 40px 230px;
+  margin-left: 140px;
+  margin-right: 140px;
   padding: 90px 80px;
   font-family: "Roboto Mono", serif;
   font-size: 20px;
@@ -250,7 +251,7 @@ body {
 }
 
 .divider {
-  width: 10px; 
+  width: 6px; 
   background-color: #000000;  
   align-self: stretch;
   margin: 0 15px;
@@ -290,7 +291,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin: 80px auto;
-    padding: 40px;
+    padding: 50px;
     background-color: #b2689460;
     border: 3px solid #000000;
     border-radius: 70px;
@@ -365,11 +366,12 @@ body {
 .contact-info {
   flex: 1;
   text-align: center;
-  font-size: 20px;
+  font-size: 22px;
   background-color: #dca0c4;
   border: 3px solid #000000;
   border-radius: 25px;
   font-family: "Roboto Mono", serif;
+  padding: 40px;
 }
 
 .contact-info p {
@@ -380,12 +382,13 @@ body {
 .contact-form-container {
   flex: 1;
   background: #f9f9f9;
-  padding: 20px;
+  padding: 60px;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border: 3px solid #000000;
   border-radius: 25px;
   font-family: "Roboto Mono", serif;
+  
 }
 
 .contact-form {
