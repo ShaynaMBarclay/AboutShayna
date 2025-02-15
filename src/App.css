@@ -32,7 +32,7 @@ body {
     border-radius: 150px;
     color: rgb(0, 0, 0);
     height: auto;
-    margin: 10rem;
+    margin: 10rem 12rem 10rem 12rem;
     max-width: 1200px; /* Adjust if needed */
     background-color: #be4d9155;
     overflow-y: auto;
