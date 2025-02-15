@@ -16,6 +16,10 @@ body {
   background-color: #f8bde055;
 }
 
+.page-container {
+  display: flex;
+}
+
 
 /* HER0 SECTION */
   .hero {
