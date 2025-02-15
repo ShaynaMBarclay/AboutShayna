@@ -12,10 +12,11 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-    <Navbar />
+    
    
 
-    <main classname= "page-container">
+    <div className= "page-container">
+      <Navbar/>
         <Routes>
           <Route path= "/" element={<HomePage />} />
           <Route path= "/about-me" element={<AboutMe />} />
@@ -23,7 +24,7 @@ function App() {
           <Route path = "/projects" element={<Projects />} />
           <Route path = "/skills" element={<Skills />} />
         </Routes>
-      </main>
+      </div>
 
 
     </>
