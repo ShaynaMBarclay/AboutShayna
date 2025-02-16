@@ -2,6 +2,7 @@ import { useState } from "react";
 import ProjectModal from "../components/ProjectModal";
 import DomofSylv from "../assets/DomofSylv.png";
 import adoptme from "../assets/adoptme.png";
+import portfolio from "../assets/portfolio.png";
 
 function Projects() {
 
@@ -26,6 +27,15 @@ function Projects() {
             This Single Page Application (SPA) is built using React with functional components and hooks, offering 
             a seamless and dynamic user experience across multiple views.`,
             link: "https://adoptmemeow.netlify.app/"
+        },
+        {
+            id: 3,
+            title: "My Website (WIP)",
+            image: portfolio,
+            description: `Welcome to my personal website! I'm Shayna, and this space showcases my experience, skills, and creative touch. 
+            Built with React and functional components, this site is a continuous work in progress as I refine my abilities. 
+            Thanks for stopping by! Feel free to reach out if you have any questions or want to connect.`,
+            link: "https://aboutshayna.netlify.app/"
         }
     ];
     return (
