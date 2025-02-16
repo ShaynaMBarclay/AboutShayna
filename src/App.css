@@ -620,7 +620,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 768px) {
   .vertical-navbar {
     top: 45rem;
     left: 2.6rem;
@@ -634,33 +634,44 @@ button:hover {
 
    /* HER0 SECTION */
   .hero {
-    margin: 2rem 10rem 8rem 10rem;
-    padding: 1rem;
+    margin: 10% 3% 3% 10%;
+    padding: 2.5rem;
     
-    max-width: 50%;
+    max-width: 80%;
   }
 
   .middle-hero {
-    margin: 0.8rem 1.2rem 1rem;
+    margin: 0.4rem 1.2rem 1rem;
     flex-direction: column;
   }
 
+  .hero h2 {
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono", serif;
+    font-size: 35px;
+    max-width: 75%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
   .profile-picture {
-    width: 250px;  
-    height: 250px;
-    margin-left: 53px;
-    margin-right: 109px;
-    margin-top: -75px;
-    
+    width: 200px;  
+    height: 200px;
+    margin-top: -25px;
+    margin-bottom: 15px;
     }
 
   .buttons-homepage {
-    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 1rem; 
+    margin-bottom: 20px;
   }
 
    /*ABOUT ME*/
   .about-me {
-    margin: 10rem 2rem 10rem 2rem;
+    margin: 10% 3% 3% 10%;
   }
   .divider {
     margin: 0 15px;
@@ -668,104 +679,6 @@ button:hover {
 
   .button-aboutme:hover {
     transform: scale(1.05); 
-  }
-
-  /* SKILLS */
-  .webdevskills {
-    margin: 8rem 1rem 0rem 1rem;
-  }
-
-  .skill-badge .badge span {
-  font-size: 1.2rem;
-  }
-
-  .skill-badge .badge small {
-  margin-top: 0.2rem;
-  font-size: 1rem;
-  }
-
-    /* CONTACT */
-    .contact-page {
-      flex-direction: column;
-    }
-
-    /* Contact Information */
-    .contact-info {
-      font-size: 22px;
-      padding: 50px;
-      max-width: 100%;
-    }
-
-    /* Contact Form */
-    .contact-form-container {
-      padding: 44px;
-      width: 100%;
-      
-    }
-
-    .contact-form {
-      gap: 12px;
-    }
-
-    button {
-      padding: 1.5rem;
-      font-size: 1.5rem;
-      border-radius: 5px;
-    }
-}
-
-/* PHONE */
-
-@media screen and (max-width: 480px) {
-  .vertical-navbar {
-    top: 42rem;
-    left: 1.5rem;
-    /*gap: 10px;*/
-    max-width: 280px;
-  }
-
-  .navbar-links {
-    flex-direction: column;
-    gap: 5px;
-    align-items: center;
-   }
-
-   /* HER0 SECTION */
-  .hero {
-    margin: 0.2rem auto;
-    padding: 1rem;
-    max-width: 0%;
-    text-align: center;
-  }
-
-  .middle-hero {
-    margin: 0.5rem 1rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .profile-picture {
-    width: 180px;  
-    height: 180px;
-    margin: 0 auto;
-    display: block;
-    }
-
-  .buttons-homepage {
-    margin-bottom: 20px;
-  }
-
-   /*ABOUT ME*/
-  .about-me {
-    margin: 6rem 1rem;
-    text-align: center;
-  }
-  .divider {
-    margin: 0 10px;
-  }
-
-  .button-aboutme:hover {
-    transform: scale(1.0); 
   }
 
   /* SKILLS */
