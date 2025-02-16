@@ -32,7 +32,7 @@ body {
     border-radius: 150px;
     color: rgb(0, 0, 0);
     height: auto;
-    margin: 3% 12rem 3% 12rem;
+    margin: 3% 5% 3% 5%;
     max-width: 1200px; 
     background-color: #be4d9155;
     overflow-y: auto;
@@ -194,7 +194,7 @@ body {
   justify-content: center;
   flex-direction: row;
   color: rgb(0, 0, 0);
-  margin: 5rem;
+  margin: 3% 5% 3% 5%;
   max-width: 1200px;
   font-family: "Roboto Mono", serif;
   font-size: 20px;
@@ -292,7 +292,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: 5rem;
+    margin: 3% 5% 3% 5%;
     background-color: #b2689460;
     border: 3px solid #000000;
     border-radius: 70px;
@@ -360,7 +360,7 @@ body {
 
 .contact-page {
   max-width: 1200px; 
-  margin: 2rem;
+  margin: 3% 5% 3% 5%;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -440,14 +440,14 @@ button:hover {
   text-align: center;
   padding: 40px;
   font-family: "Roboto Mono", serif;
-  margin: 0 auto;
+  margin: 3% 5% 3% 5%;
 }
 
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 70px;
   margin-top: 20px;
   font-family: "Roboto Mono", serif;
 }
