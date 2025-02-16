@@ -27,23 +27,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centers content horizontally */
+    justify-content: center; 
     border: solid rgb(0, 0, 0);
     border-radius: 150px;
     color: rgb(0, 0, 0);
     height: auto;
-    margin: 10rem 12rem 10rem 12rem;
-    max-width: 1200px; /* Adjust if needed */
+    margin: 3% 12rem 3% 12rem;
+    max-width: 1200px; 
     background-color: #be4d9155;
     overflow-y: auto;
-    text-align: center; /* Ensures text inside is centered */
+    text-align: center; 
   }
 
   .middle-hero {
     display: flex;
-    flex-direction: row; /* Stack content vertically */
-    align-items: center; /* Centers horizontally */
-    justify-content: center; /* Centers vertically */
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
     text-align: center;
     margin: 0.8rem 1.2rem auto;
   }
@@ -81,7 +81,7 @@ body {
   .buttons-homepage {
     display: flex;
     justify-content: center; 
-    gap: 2rem; /* Adds spacing between buttons */
+    gap: 2rem; 
     margin-bottom: 50px;
   }
 
@@ -128,10 +128,6 @@ body {
       color: #000000;
   }
 
-
- 
-
-
   /*NAVBAR*/
 
  .vertical-navbar {
@@ -142,7 +138,7 @@ body {
    align-items: center;
    justify-content: center;
    position: fixed;
-   top: 18rem;
+   top: 30%;
    left: 3rem;
    gap: 10px;
    border-radius: 50px;
@@ -198,7 +194,7 @@ body {
   justify-content: center;
   flex-direction: row;
   color: rgb(0, 0, 0);
-  margin: 10rem;
+  margin: 5rem;
   max-width: 1200px;
   font-family: "Roboto Mono", serif;
   font-size: 20px;
@@ -296,13 +292,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: 10rem;
+    margin: 5rem;
     background-color: #b2689460;
     border: 3px solid #000000;
     border-radius: 70px;
     font-family: "Roboto Mono", serif;
     max-width: 1200px;
-    width: 80%;
+    width: 60%;
     padding-bottom: 3rem;
     box-sizing: border-box;
 }
@@ -363,8 +359,8 @@ body {
 /* CONTACT */
 
 .contact-page {
-  max-width: 1200px; /* Adjust width */
-  margin: 10rem;
+  max-width: 1200px; 
+  margin: 2rem;
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -672,6 +668,104 @@ button:hover {
 
   .button-aboutme:hover {
     transform: scale(1.05); 
+  }
+
+  /* SKILLS */
+  .webdevskills {
+    margin: 8rem 1rem 0rem 1rem;
+  }
+
+  .skill-badge .badge span {
+  font-size: 1.2rem;
+  }
+
+  .skill-badge .badge small {
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  }
+
+    /* CONTACT */
+    .contact-page {
+      flex-direction: column;
+    }
+
+    /* Contact Information */
+    .contact-info {
+      font-size: 22px;
+      padding: 50px;
+      max-width: 100%;
+    }
+
+    /* Contact Form */
+    .contact-form-container {
+      padding: 44px;
+      width: 100%;
+      
+    }
+
+    .contact-form {
+      gap: 12px;
+    }
+
+    button {
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      border-radius: 5px;
+    }
+}
+
+/* PHONE */
+
+@media screen and (max-width: 480px) {
+  .vertical-navbar {
+    top: 42rem;
+    left: 1.5rem;
+    /*gap: 10px;*/
+    max-width: 280px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+   }
+
+   /* HER0 SECTION */
+  .hero {
+    margin: 0.2rem auto;
+    padding: 1rem;
+    max-width: 0%;
+    text-align: center;
+  }
+
+  .middle-hero {
+    margin: 0.5rem 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-picture {
+    width: 180px;  
+    height: 180px;
+    margin: 0 auto;
+    display: block;
+    }
+
+  .buttons-homepage {
+    margin-bottom: 20px;
+  }
+
+   /*ABOUT ME*/
+  .about-me {
+    margin: 6rem 1rem;
+    text-align: center;
+  }
+  .divider {
+    margin: 0 10px;
+  }
+
+  .button-aboutme:hover {
+    transform: scale(1.0); 
   }
 
   /* SKILLS */
