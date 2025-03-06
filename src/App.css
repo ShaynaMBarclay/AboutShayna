@@ -4,7 +4,7 @@
 }
 
 body {
-  font-size: 20px;
+  font-size: 1.2rem ;
   margin: 0;
   background-color: #f8bde055;
 }
@@ -21,19 +21,17 @@ body {
 
   /* HER0 SECTION */
   .hero {
-    border: solid rgb(0, 0, 0);
-    border-radius: 150px;
+    border: 3.5px solid rgb(0, 0, 0);
     gap: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    border: solid rgb(0, 0, 0);
-    border-radius: 150px;
+    border-radius: 11rem;
     color: rgb(0, 0, 0);
     height: auto;
-    margin: 7% 5% 3% 5%;
-    max-width: 1200px; 
+    margin: 2% 5% 2% 5%;
+    max-width: 75rem; 
     background-color: #be4d9155;
     overflow-y: auto;
     text-align: center; 
@@ -45,6 +43,7 @@ body {
     align-items: center; 
     justify-content: center; 
     text-align: center;
+    padding-bottom: 2.2rem;
     margin: 0.8rem 1.2rem auto;
   }
 
@@ -56,13 +55,14 @@ body {
   }
 
   .profile-picture {
-    width: 300px;  
-    height: 300px;
+    width: 19rem;  
+    height: 19rem;
     border-radius: 50%;  
     object-fit: cover;  
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -82,7 +82,7 @@ body {
     display: flex;
     justify-content: center; 
     gap: 2rem; 
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
   }
 
   /* Shared styles for both buttons */
@@ -97,7 +97,7 @@ body {
       transition: color 0.3s, transform 0.2s;
       border-radius: 100px;
       border: 3px solid rgb(0, 0, 0);
-      padding: 15px 30px;
+      padding: 1rem 2rem;
       cursor: pointer;
       width: auto;
       height: auto;
@@ -131,7 +131,7 @@ body {
   /*NAVBAR*/
 
  .vertical-navbar {
-   padding: 10px;
+   padding: 0.8rem;
    background-color: #ffcfec;
    display: flex;
    flex-direction: column;
@@ -140,12 +140,12 @@ body {
    position: fixed;
    top: 30%;
    left: 3rem;
-   gap: 10px;
+   gap: 10rem;
    border-radius: 50px;
    border-style: solid;
    width: auto;
    height: auto;
-   max-width: 150px;
+   max-width: 9rem;
  }
 
    .navbar-links {
@@ -161,8 +161,8 @@ body {
     color: #000000; 
     text-decoration: none; 
     font-size: 24px; 
-    width: 50px;
-    height: 50px;
+    width: 3.3rem;
+    height: 3.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,10 +195,10 @@ body {
   flex-direction: row;
   color: rgb(0, 0, 0);
   margin: 3% 5% 3% 5%;
-  max-width: 1200px;
+  max-width: 70rem;
   font-family: "Roboto Mono", serif;
   font-size: 20px;
-  gap: 30px;
+  gap: 3.4rem;
 }
 
 .about-text {
@@ -222,11 +222,11 @@ body {
 }
 
 .skill-box {
-  width: 200px;
-  height: 200px;
-  padding: 10px 15px;
-  border: 2px solid #000000;
-  border-radius: 8px;
+  width: 14rem;
+  height: 13rem;
+  padding: 1rem 3px;
+  border: 0.17rem solid #000000;
+  border-radius: 1rem;
   background-color: #c592b0cc;
   font-size: 25px;
   font-weight: bold;
@@ -252,10 +252,10 @@ body {
 }
 
 .divider {
-  width: 6px; 
+  width: 0.7rem; 
   background-color: #000000;  
   align-self: stretch;
-  margin: 0 15px;
+  margin: 0 1rem;
 }
 
 .button-aboutme {
@@ -269,10 +269,10 @@ body {
   font-size: 20px;
   font-weight: bold;
   transition: color 0.3s, transform 0.2s;
-  border-radius: 100px;
+  border-radius: 3rem;
   margin-top: 0.5rem;
   border: 3px solid rgb(0, 0, 0);
-  padding: 25px 30px;
+  padding: 1.7rem 1rem;
   cursor: pointer;
   width: auto;
   height: auto;
@@ -292,12 +292,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin: 3% 5% 3% 5%;
+    margin: 2% 5% 2% 5%;
     background-color: #b2689460;
     border: 3px solid #000000;
-    border-radius: 70px;
+    border-radius: 4rem;
     font-family: "Roboto Mono", serif;
-    max-width: 1200px;
+    max-width: 55rem;
     width: 60%;
     padding-bottom: 3rem;
     box-sizing: border-box;
@@ -324,9 +324,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 150px;
-  padding: 15px;
+  width: 10rem;
+  height: 9rem;
+  padding: 1.6rem;
   background-color: #f0f0f0;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -336,13 +336,13 @@ body {
 }
 
 .skill-badge .badge:hover {
-  transform: scale(1.10); 
+  transform: scale(1.12); 
 }
 
 .skill-badge .badge img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 5px;
+  max-width: 3rem;
+  max-height: 3rem;
+  margin-bottom: 0.7rem;
   object-fit: contain;
 }
 
@@ -374,22 +374,21 @@ body {
   text-align: center;
   font-size: 22px;
   background-color: #dca0c4;
-  border: 3px solid #000000;
+  border: 3.5px solid #000000;
   border-radius: 25px;
   font-family: "Roboto Mono", serif;
-  padding: 40px;
+  padding: 3.5rem;
 }
 
 .contact-info p {
-  margin-bottom: 10px;
+  margin-bottom: 0.7rem;
 }
 
 /* Contact Form */
 .contact-form-container {
   flex: 1;
   background: #f9f9f9;
-  padding: 60px;
-  border-radius: 10px;
+  padding: 2.4rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border: 3px solid #000000;
   border-radius: 25px;
@@ -400,7 +399,7 @@ body {
 .contact-form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.8rem;
 }
 
 input, textarea {
@@ -411,13 +410,13 @@ input, textarea {
 }
 
 textarea {
-  height: 100px;
+  height: 9rem;
 }
 
 button {
   background-color: #be4d91;
   color: white;
-  padding: 10px;
+  padding: 0.8rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -438,22 +437,22 @@ button:hover {
 
 .my-projects {
   text-align: center;
-  padding: 40px;
+  padding: 0.3rem;
   font-family: "Roboto Mono", serif;
-  margin: 3% 5% 3% 5%;
+  margin: 2% 5% 2% 5%;
 }
 
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 70px;
-  margin-top: 20px;
+  gap: 4.8rem;
+  margin-top: 2rem;
   font-family: "Roboto Mono", serif;
 }
 
 .project-item {
-  width: 500px;
+  width: 30rem;
   cursor: pointer;
   text-align: center;
 }
@@ -483,9 +482,9 @@ button:hover {
 
 .modal-content {
   background:#dca0c4;
-  padding: 20px;
+  padding: 2rem;
   border-radius: 35px;
-  max-width: 600px;
+  max-width: 35rem;
   text-align: center;
   position: relative;
   font-family: "Roboto Mono", serif;
@@ -493,8 +492,8 @@ button:hover {
 
 .close-btn {
   position: absolute;
-  top: 10px;
-  right: 20px;
+  top: 1rem;
+  right: 2rem;
   font-size: 24px;
   cursor: pointer;
 }
@@ -513,7 +512,7 @@ button:hover {
   transition: color 0.3s, transform 0.2s;
   border-radius: 100px;
   border: 3px solid rgb(0, 0, 0);
-  padding: 20px 30px;
+  padding: 1.5rem ;
   cursor: pointer;
   width: auto;
   height: auto;
@@ -531,7 +530,7 @@ button:hover {
 
 @media (min-width: 769px) and (max-width: 1025px) {
   .vertical-navbar {
-    top: 50rem;
+    top: 30rem;
     left: 15rem;
     gap: 10px;
     max-width: 450px;
@@ -622,26 +621,28 @@ button:hover {
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .vertical-navbar {
-    top: 45rem;
-    left: 2.6rem;
-    max-width: 300px;
+    left: 2rem;
+    right: 2rem;
+    max-width: 30rem;
+    top: 0.2rem;
   }
 
   .navbar-links {
     flex-direction: row;
-    gap: 3px;
+    gap: 10px;
    }
 
    /* HER0 SECTION */
   .hero {
-    margin: 10% 3% 3% 10%;
-    padding: 2.5rem;
-    
-    max-width: 80%;
+    margin: 1rem;
+    padding: 6rem;
+    max-width: 22rem;
   }
 
+  
+
   .middle-hero {
-    margin: 0.4rem 1.2rem 1rem;
+    margin: 0.1rem 0.2rem 0.1rem;
     flex-direction: column;
   }
 
@@ -649,69 +650,91 @@ button:hover {
     justify-content: center;
     align-items: center;
     font-family: "Roboto Mono", serif;
-    font-size: 35px;
-    max-width: 75%;
+    font-size: 26px;
+    max-width: 9.8rem;
     color: rgb(255, 255, 255);
     text-align: center;
   }
 
   .profile-picture {
-    width: 200px;  
-    height: 200px;
+    max-width: 11rem;  
+    max-height: 11rem;
     margin-top: -25px;
     margin-bottom: 15px;
     }
 
   .buttons-homepage {
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 2px;
+    margin: 0.1rem;
     gap: 1rem; 
-    margin-bottom: 20px;
+  
   }
 
    /*ABOUT ME*/
   .about-me {
-    margin: 10% 3% 3% 10%;
+    display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
+    margin: 0.1rem;
+    padding: 5rem;
+    max-width: 22rem;
   }
-  .divider {
-    margin: 0 15px;
+ 
+  
+  .skills-boxes {
+    display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
   }
 
-  .button-aboutme:hover {
-    transform: scale(1.05); 
-  }
 
   /* SKILLS */
   .webdevskills {
-    margin: 8rem 1rem 0rem 1rem;
+    display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
+    padding: 6rem;
+    max-width: 22rem;
   }
 
-  .skill-badge .badge span {
-  font-size: 1.2rem;
-  }
-
-  .skill-badge .badge small {
-  margin-top: 0.2rem;
-  font-size: 1rem;
+  .skill-badge {
+    display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
+    margin: 0.1rem;
+    padding: 5rem;
+    max-width: 22rem;
   }
 
     /* CONTACT */
     .contact-page {
-      flex-direction: column;
+    display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+	  justify-content: center;
+	  align-items: center;
+    padding: 1rem;
+    max-width: 25rem;
     }
 
     /* Contact Information */
     .contact-info {
-      font-size: 22px;
-      padding: 50px;
+      font-size: 19px;
       max-width: 100%;
     }
 
     /* Contact Form */
     .contact-form-container {
-      padding: 44px;
+      padding: 3rem;
       width: 100%;
-      
     }
 
     .contact-form {
@@ -719,8 +742,41 @@ button:hover {
     }
 
     button {
-      padding: 1.5rem;
-      font-size: 1.5rem;
+      padding: 1rem;
+      font-size: 15px;
       border-radius: 5px;
+    }
+
+    /* PROJECTS */
+    .my-projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+        max-width: 22rem;
+    }
+
+    .project-image {
+      margin: 0.1rem;
+      padding: 0.1rem;
+      max-width: 22rem;
+    }
+
+    .modal-content {
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: center;
+     
+      padding: 4rem;
+      max-width: 22rem;
+    }
+
+    .project-btn {
+      font-size: 15px;
     }
 }
