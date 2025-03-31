@@ -43,7 +43,7 @@ function Contact() {
                 <FontAwesomeIcon icon={faPhone} />  fr: +33 6 95 26 81 75
             </p>
             <p>
-                <FontAwesomeIcon icon={faPhone} />  us: +1 240 242 5177
+                <FontAwesomeIcon icon={faPhone} />  us: +1 240 869 0958
             </p>
             <p>
                 <FontAwesomeIcon icon={faEnvelope} />  shaynambarclay@gmail.com
