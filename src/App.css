@@ -623,10 +623,11 @@ button:hover {
 
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .vertical-navbar {
+    padding: 1rem, 1rem, 1rem, 1rem;
     left: 2rem;
     right: 2rem;
     max-width: 30rem;
-    top: 0.2rem;
+    top: 1rem;
   }
 
   .navbar-links {
@@ -636,12 +637,23 @@ button:hover {
 
    /* HER0 SECTION */
   .hero {
-    margin: 1rem;
-    padding: 6rem;
+    margin: 7rem 1rem 1rem 1rem;
+    padding: 2.5rem 1rem 1rem 1rem;
     max-width: 22rem;
+    border-radius: 3.5rem;
   }
 
-  
+  .hero h1 {
+    font-size: 29px;
+  }
+
+  .profile-picture {
+    width: 10rem;  
+    height: 10rem;
+    border-radius: 50%;  
+    object-fit: cover;  
+    margin: 2rem 2rem 2rem 2rem;
+}
 
   .middle-hero {
     margin: 0.1rem 0.2rem 0.1rem;
@@ -652,7 +664,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     font-family: "Roboto Mono", serif;
-    font-size: 26px;
+    font-size: 22px;
     max-width: 9.8rem;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -665,11 +677,10 @@ button:hover {
     margin-bottom: 15px;
     }
 
-  .buttons-homepage {
-    font-size: 2px;
-    margin: 0.1rem;
-    gap: 1rem; 
-  
+  .buttons-homepage a {
+    font-size: 15px;
+    margin: 0.2rem;
+    border-radius: 37px;
   }
 
    /*ABOUT ME*/
@@ -679,8 +690,8 @@ button:hover {
 	  flex-wrap: nowrap;
 	  justify-content: center;
 	  align-items: center;
-    margin: 0.1rem;
-    padding: 5rem;
+    margin: 1rem;
+    padding: 5rem 1rem;
     max-width: 22rem;
   }
  
@@ -693,15 +704,23 @@ button:hover {
 	  align-items: center;
   }
 
+  .button-aboutme {
+    font-size: 17px;
+    border-radius: 37px;
+  }
+
 
   /* SKILLS */
   .webdevskills {
+    border-radius: 36px;
+    margin: 7rem 2rem 1rem;
+    padding: 3rem 4rem 4rem 3rem;
+    font-size: 16px;
     display: flex;
 	  flex-direction: column;
 	  flex-wrap: nowrap;
 	  justify-content: center;
 	  align-items: center;
-    padding: 6rem;
     max-width: 22rem;
   }
 
@@ -712,29 +731,36 @@ button:hover {
 	  justify-content: center;
 	  align-items: center;
     margin: 0.1rem;
-    padding: 5rem;
+    padding: 2rem;
     max-width: 22rem;
   }
 
     /* CONTACT */
     .contact-page {
+    margin: 6.5rem 2rem 1rem 1rem;
+    padding: 1rem;
     display: flex;
 	  flex-direction: column;
 	  flex-wrap: nowrap;
 	  justify-content: center;
 	  align-items: center;
-    padding: 1rem;
-    max-width: 25rem;
+    max-width: 22rem;
     }
 
     /* Contact Information */
     .contact-info {
-      font-size: 19px;
-      max-width: 100%;
+      padding: 1.6rem;
+      display: flex;
+	   flex-direction: column;
+	   flex-wrap: nowrap;
+	   justify-content: center;
+     font-size: 16px;
+     max-width: 100%;
     }
 
     /* Contact Form */
     .contact-form-container {
+      font-size: 16px;
       padding: 3rem;
       width: 100%;
     }
@@ -751,12 +777,9 @@ button:hover {
 
     /* PROJECTS */
     .my-projects {
+        margin: 6rem 0;
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        padding: 3rem;
         max-width: 22rem;
     }
 
@@ -767,18 +790,18 @@ button:hover {
     }
 
     .modal-content {
-      font-size: 16px;
+      font-size: 14px;
       display: flex;
       flex-direction: column;
      flex-wrap: nowrap;
      justify-content: center;
      align-items: center;
-     
-      padding: 4rem;
+     padding: 2rem;
       max-width: 22rem;
     }
 
     .project-btn {
       font-size: 15px;
+      padding: 0.9rem;
     }
 }
