@@ -1,26 +1,13 @@
-import { useState } from "react";
-import ProjectModal from "../components/ProjectModal";
-import DomofSylv from "../assets/DomofSylv.png";
-import adoptme from "../assets/adoptme.png";
-import portfolio from "../assets/portfolio.png";
-import pixelpet from "../assets/pixelpet.png";
-import frames from "../assets/Frames.png";
-
-function Projects() {
-
-    const [selectedProject, setSelectedProject] = useState(null);
-
-    const projects = [
+ const projects = [
         {
               id: 1,
               title: "Pixel Pet",
               image: pixelpet,
               description: `Pixel Pet is a React-based browser game inspired by early 2000s Tamagotchi pets. 
-              Players take care of their pixel pet by feeding, petting, and bathing it, ensuring its hunger, happiness, and health bars stay high. 
-              The game uses useEffect and setInterval to dynamically update the pet's mood over time, with the pet becoming tired, stinky, and angry if neglected. 
-              As the player interacts with the pet, the mood and stats are constantly recalibrated, creating an evolving experience.
-              I hand-drew the pixel art for the pet, giving it a unique, nostalgic charm.`,
-              link: "https://pixeloliver.netlify.app/"
+              Players feed, pet, and bathe their pixel pet to keep it happy and healthy while managing its hunger, happiness, and health bars before they drop too low.
+              Using useEffect and intervals, the pet's mood changes dynamically over time, becoming tired, stinky, and angry if neglected.
+              I hand-drew the pet myself and am still refining the design, UI, and features to enhance the gameplay experience.
+              PixelPet will be deployed soon!`,
                },
         {
             id: 2,
@@ -61,27 +48,3 @@ function Projects() {
              link: "https://shaynambarclay.github.io/The-Dominator-of-Sylvariae/"
         }
     ];
-    return (
-        <div className="my-projects">
-            <h2> My Projects</h2>
-           <div className="projects-container">
-            {projects.map((project) => (
-                <div key={project.id} className="project-item" onClick={() => setSelectedProject(project)}>
-                    <img src={project.image} alt={project.title} className="project-image" />
-                    <h3>{project.title}</h3>
-            </div>
-            ))}
-           </div>
-
-           {/* Modal */}
-           {selectedProject && (
-            <ProjectModal
-               project={selectedProject}
-               onClose={() => setSelectedProject(null)}
-               />
-           )}
-           </div>
-        );
-      }
-              
-export default Projects;
