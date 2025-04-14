@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Navbar from "./components/Navbar";
+import DarkModeToggle from "./components/DarkModeToggle";
 
 
 
@@ -15,6 +16,7 @@ function App() {
     
   
     <div className= "page-container">
+    <DarkModeToggle />
       <Navbar/>
         <Routes>
           <Route path= "/" element={<HomePage />} />
