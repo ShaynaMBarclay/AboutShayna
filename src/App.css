@@ -450,7 +450,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4.8rem;
+  gap: 5em;
   margin: 3.7rem;
   font-family: "Roboto Mono", serif;
 }
@@ -545,7 +545,7 @@ button:hover {
 /* Toggle button */
 .darkmode-toggle {
   margin: 0.2rem;
-  background: #00000000;
+  background: #aa619200;
   border-radius: 5rem;
   font-size: 1.3rem;
   cursor: pointer;
@@ -553,7 +553,7 @@ button:hover {
 
 
 body.dark-mode .darkmode-toggle {
-  background: #000000;
+  background: #00000000;
   transition: all 0.6s ease;
 }
 
