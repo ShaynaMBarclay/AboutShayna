@@ -38,7 +38,7 @@ function Projects() {
             description: `Welcome to my personal website! I'm Shayna, and this space showcases my experience, skills, and creative touch. 
             Built with React and functional components, this site is a continuous work in progress as I refine my abilities. 
             Thanks for stopping by! Feel free to reach out if you have any questions or want to connect.`,
-            link: "https://aboutshayna.netlify.app/"
+            link: "https://aboutshayna.dev/"
         },
         {
               id: 4,
