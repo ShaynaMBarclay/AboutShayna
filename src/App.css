@@ -800,7 +800,7 @@ body.dark-mode .project-btn:hover {
     margin: 7rem 1rem 1rem 1rem;
     padding: 2.5rem 1rem 1rem 1rem;
     max-width: 22rem;
-    border-radius: 3.5rem;
+    border-radius: 6.3rem;
   }
 
   .hero h1 {
@@ -966,6 +966,10 @@ body.dark-mode .project-btn:hover {
     }
 
       .darkmode-topbar {
-        display: none;
+        position: relative;
+        top: 6.5rem;
+        right: auto;
+        width: 100%;
+        justify-content: center;
       }
 }
