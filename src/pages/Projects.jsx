@@ -5,6 +5,8 @@ import adoptme from "../assets/adoptme.png";
 import portfolio from "../assets/portfolio.png";
 import pixelpet from "../assets/pixelpet.png";
 import frames from "../assets/Frames.png";
+import crbarclay from "../assets/crbarclay.png";
+
 
 function Projects() {
 
@@ -12,6 +14,7 @@ function Projects() {
 
     const projects = [
         {
+
               id: 1,
               title: "Pixel Pet",
               image: pixelpet,
@@ -22,6 +25,16 @@ function Projects() {
               I hand-drew the pixel art for the pet, Oliver, giving it a unique, nostalgic charm. No ai generated art here!`,
               link: "https://pixeloliver.netlify.app/"
                },
+
+        {
+            id: 1.2,
+            title: "CRBarclay Solutions (WIP)",
+            image: crbarclay,
+            description: `I designed and developed a responsive website for a real-world client in the ATM solutions industry. 
+            The site features a custom image carousel, an engaging homepage layout with company branding, and dynamic routing with React Router. 
+            Built using React and styled with CSS, the project showcases my ability to create functional and visually appealing web applications tailored to a client's specific needs. Permission to showcase WIP, Website will be deployed soon!`,
+            link: ""
+        },
         {
             id: 2,
             title: "Adopt Me",
