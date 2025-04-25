@@ -18,11 +18,10 @@ function Projects() {
               id: 1,
               title: "Pixel Pet",
               image: pixelpet,
-              description: `Pixel Pet is a A React-based browser game inspired by Tamagotchi pets. 
-              Players take care of their pixel pet Oliver by feeding, playing with, and bathing him, ensuring his hunger, happiness, and health stay high. 
-              The game uses useEffect and setInterval to dynamically update the pet's mood over time, with Oliver becoming tired, stinky, and angry, if neglected. 
-              As the player interacts with the pet, the mood and stats are constantly recalibrated, creating an evolving experience. 
-              I hand-drew the pixel art for the pet, Oliver, giving it a unique, nostalgic charm.`,
+              description: `Pixel Pet is a React browser game inspired by Tamagotchi. 
+              Players care for their pet, Oliver, by feeding, playing, and bathing him to maintain his mood and stats. 
+              The game uses useEffect and setInterval to update Oliver’s emotions in real-time. 
+              I hand-drew the pixel art to give it a nostalgic charm.`,
               link: "https://pixeloliver.netlify.app/"
                },
 
