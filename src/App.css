@@ -960,6 +960,7 @@ body.dark-mode .project-btn:hover {
      align-items: center;
      padding: 2rem;
       max-width: 22rem;
+      z-index: 8888
     }
 
     .project-btn {
