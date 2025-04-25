@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 import Navbar from "./components/Navbar";
 import DarkModeToggle from "./components/DarkModeToggle";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <div className= "page-container">
     <DarkModeToggle />
       <Navbar/>
+      <ScrollToTop />
         <Routes>
           <Route path= "/" element={<HomePage />} />
           <Route path= "/about-me" element={<AboutMe />} />
