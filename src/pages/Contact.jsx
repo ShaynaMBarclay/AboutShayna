@@ -2,7 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
@@ -50,12 +50,17 @@ function Contact() {
             </p>
             <p>
                 <a href="https://www.linkedin.com/in/shaynambarclay/" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faLinkedin} /> 
+                    <FontAwesomeIcon icon={faLinkedin} className="social-icon" /> 
                 </a>
             </p>
             <p>
                 <a href="https://github.com/ShaynaMBarclay" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faGithub} /> 
+                    <FontAwesomeIcon icon={faGithub} className="social-icon" /> 
+                </a>
+            </p>
+            <p>
+                <a href="https://x.com/shaydotdev" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faTwitter} className="social-icon" /> 
                 </a>
             </p>
          </div>

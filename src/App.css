@@ -657,6 +657,16 @@ body.dark-mode .project-btn:hover {
   background-color: #6b2c488b;
 }
 
+.social-icon {
+  font-size: 30px;
+  color: hotpink;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: rgb(238, 63, 151);
+}
+
 /* MEDIA QUERIES */
 
 /*TABLETS*/
