@@ -27,12 +27,12 @@ function Projects() {
 
         {
             id: 1.2,
-            title: "CRBarclay Solutions (WIP)",
+            title: "CRBarclay Solutions",
             image: crbarclay,
             description: `I designed and developed a responsive website for a real-world client in the ATM solutions industry. 
             The site features a custom image carousel, an engaging homepage layout with company branding, and dynamic routing with React Router. 
-            Built using React and styled with CSS, the project showcases my ability to create functional and visually appealing web applications tailored to a client's specific needs. Permission to showcase WIP, Website will be deployed soon!`,
-            link: ""
+            Built using React and styled with CSS, the project showcases my ability to create functional and visually appealing web applications tailored to a client's specific needs.`,
+            link: "https://crbarclaysolutions.com/"
         },
         {
             id: 2,
