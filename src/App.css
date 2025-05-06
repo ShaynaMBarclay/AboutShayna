@@ -352,7 +352,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin: 2% 5% 2% 5%;
-    background-color: #b2689460;
+    background-color: #b2689468;
     border: 3px solid #000000;
     border-radius: 2.4rem;
     font-family: "Roboto Mono", serif;
@@ -386,7 +386,7 @@ body {
   width: 10rem;
   height: 9rem;
   padding: 1.6rem;
-  background-color: #f0f0f0;
+  background-color: #ffcfec;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   text-align: center;
