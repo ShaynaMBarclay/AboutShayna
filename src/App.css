@@ -30,10 +30,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    border-radius: 11rem;
+    border-radius: 2.4rem;
     color: rgb(0, 0, 0);
     height: auto;
-    margin: 2% 5% 2% 5%;
+    margin: 2%;
     max-width: 75rem; 
     background-color: #be4d9155;
     overflow-y: auto;
@@ -329,7 +329,7 @@ body {
     margin: 2% 5% 2% 5%;
     background-color: #b2689460;
     border: 3px solid #000000;
-    border-radius: 4rem;
+    border-radius: 2.4rem;
     font-family: "Roboto Mono", serif;
     max-width: 55rem;
     width: 60rem;
@@ -843,7 +843,7 @@ body.dark-mode .project-btn:hover {
     margin: 7rem 0.1rem 1rem;
     padding: 1rem;
     max-width: 22rem;
-    border-radius: 2.4rem;
+    border-radius: 2.7rem;
   }
 
   .hero h1 {
