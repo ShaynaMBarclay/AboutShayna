@@ -68,7 +68,7 @@ body {
   
   @keyframes typing {
     from { width: 0 }
-    to { width: 20ch } 
+    to { width: 21ch } 
   }
   
   @keyframes blink {
@@ -85,7 +85,7 @@ body {
 
   @keyframes typingMobile {
     from { width: 0 }
-    to { width: 20ch; } 
+    to { width: 21ch; } 
   }
 }
 
@@ -540,6 +540,7 @@ button:hover {
   align-items: center;
   opacity: 0;
   animation: fadeIn 0.3s forwards;
+  z-index: 200000;
 }
 
 .modal-content {
@@ -553,6 +554,7 @@ button:hover {
   transform: scale(0.9);
   opacity: 0;
   animation: popIn 0.4s ease-out forwards;
+  z-index: 300000;
 }
 
 @keyframes fadeIn {
@@ -902,7 +904,7 @@ body.dark-mode .project-btn:hover {
 
   @keyframes typingMobile {
     from { width: 0 }
-    to { width: 20ch; } 
+    to { width: 21ch; } 
   }
 }
 
@@ -1080,7 +1082,7 @@ body.dark-mode .project-btn:hover {
       .darkmode-toggle {
         margin: 0.2rem;
         background: none;
-        border-radius: 5rem;
+        border-radius: 10rem;
         font-size: 1.3rem;
         cursor: pointer;
       }

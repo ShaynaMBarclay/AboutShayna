@@ -19,10 +19,10 @@ function Projects() {
             id: 1.3,
             title: "My Happy Little Journal",
             image: journal,
-            description: `A responsive and interactive web application that helps users track their emotions by writing or speaking journal entries. 
+            description: `An interactive web app that helps users track their emotions by writing or speaking journal entries. 
             Users can choose or type their mood, receive AI-generated mental health tips or motivational quotes via Gemini AI integration, and save their reflections locally. 
             The app also supports importing and exporting journal entries for personal backups or cross-device use. 
-            Built with React and React Router, it features a clean user interface and smooth navigation between pages.`,
+            Built with React and React Router, it features clean user interface & smooth navigation between pages.`,
             link: "https://myhappylittlejournal.com/"
              },
 
