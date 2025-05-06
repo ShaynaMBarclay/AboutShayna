@@ -6,6 +6,7 @@ import portfolio from "../assets/portfolio.png";
 import pixelpet from "../assets/pixelpet.png";
 import frames from "../assets/Frames.png";
 import crbarclay from "../assets/crbarclay.png";
+import journal from "../assets/journal.png";
 
 
 function Projects() {
@@ -13,6 +14,18 @@ function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
+        {
+
+            id: 1.3,
+            title: "My Happy Little Journal",
+            image: journal,
+            description: `A responsive and interactive web application that helps users track their emotions by writing or speaking journal entries. 
+            Users can choose or type their mood, receive AI-generated mental health tips or motivational quotes via Gemini AI integration, and save their reflections locally. 
+            The app also supports importing and exporting journal entries for personal backups or cross-device use. 
+            Built with React and React Router, it features a clean user interface and smooth navigation between pages.`,
+            link: "https://myhappylittlejournal.com/"
+             },
+
         {
 
               id: 1,
