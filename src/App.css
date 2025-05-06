@@ -92,13 +92,38 @@ body {
   .profile-picture {
     width: 19rem;  
     height: 19rem;
+    border: 4px solid #000000;
     border-radius: 50%;  
     object-fit: cover;  
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    animation: floatIn 1.2s ease-out forwards, floating 4s ease-in-out infinite;
+    opacity: 0; /* start hidden for entrance effect */
+    transform: translateY(30px) scale(0.9);
 }
+
+@keyframes floatIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.05);
+  }
+}
+
 
   .hero h2 {
     justify-content: center;
@@ -513,6 +538,8 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
 }
 
 .modal-content {
@@ -523,6 +550,22 @@ button:hover {
   text-align: center;
   position: relative;
   font-family: "Roboto Mono", serif;
+  transform: scale(0.9);
+  opacity: 0;
+  animation: popIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .close-btn {
@@ -868,7 +911,7 @@ body.dark-mode .project-btn:hover {
     height: 12rem;
     border-radius: 50%;  
     object-fit: cover;  
-    margin: 4rem;
+    margin-top: 0.7rem !important;
 }
 
   .middle-hero {
