@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <div className="home-page">
             <section className="hero">
-                <h1>Hello! I'm Shayna!👋</h1>
+            <h1 className="typing-animation">Hello! I'm Shayna!👋</h1>
               
               <section className="middle-hero">
                 <img src={pfp} alt="Shayna's Profile" className="profile-picture" />

@@ -57,6 +57,38 @@ body {
     text-align: center;
   }
 
+  .typing-animation {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #000;
+    width: 0;
+    animation: typing 3s steps(30, end) forwards, blink 0.7s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 20ch } 
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
+
+  
+/* Responsive fix for small screens */
+@media (max-width: 600px) {
+  .typing-animation {
+    font-size: 0.6rem;
+    animation: typingMobile 3s steps(22, end) forwards, blink 0.7s step-end infinite;
+  }
+
+  @keyframes typingMobile {
+    from { width: 0 }
+    to { width: 20ch; } 
+  }
+}
+
   .profile-picture {
     width: 19rem;  
     height: 19rem;
@@ -808,22 +840,35 @@ body.dark-mode .project-btn:hover {
 
    /* HER0 SECTION */
   .hero {
-    margin: 7rem 0.2rem 1rem;
+    margin: 7rem 0.1rem 1rem;
     padding: 1rem;
     max-width: 22rem;
-    border-radius: 6.3rem;
+    border-radius: 2.4rem;
   }
 
   .hero h1 {
     font-size: 33px;
   }
 
+  /* Responsive fix for small screens */
+@media (max-width: 600px) {
+  .typing-animation {
+    font-size: 1.5rem !important;
+    animation: typingMobile 3s steps(22, end) forwards, blink 0.7s step-end infinite;
+  }
+
+  @keyframes typingMobile {
+    from { width: 0 }
+    to { width: 20ch; } 
+  }
+}
+
   .profile-picture {
     width: 12rem;  
     height: 12rem;
     border-radius: 50%;  
     object-fit: cover;  
-    margin: 2rem;
+    margin: 4rem;
 }
 
   .middle-hero {
@@ -851,7 +896,7 @@ body.dark-mode .project-btn:hover {
 
   .buttons-homepage a {
     font-size: 15px;
-    margin: 0.2rem;
+    margin: 0.1rem;
     border-radius: 40px;
   }
 
@@ -877,7 +922,11 @@ body.dark-mode .project-btn:hover {
   }
 
   .button-aboutme {
-    font-size: 15px;
+    border-radius: 45px;
+  }
+
+  .download-button {
+    font-size: 12px;
     border-radius: 45px;
   }
 
