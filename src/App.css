@@ -904,7 +904,7 @@ body.dark-mode .project-btn:hover {
 
   @keyframes typingMobile {
     from { width: 0 }
-    to { width: 21ch; } 
+    to { width: 22ch; } 
   }
 }
 
@@ -1002,7 +1002,7 @@ body.dark-mode .project-btn:hover {
 
     /* CONTACT */
     .contact-page {
-    margin: 6.5rem 2rem 1rem 1rem;
+    margin: 6.5rem 1rem 1rem 1rem;
     padding: 1rem;
     display: flex;
 	  flex-direction: column;
