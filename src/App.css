@@ -899,12 +899,12 @@ body.dark-mode .project-btn:hover {
 @media (max-width: 600px) {
   .typing-animation {
     font-size: 1.5rem !important;
-    animation: typingMobile 3s steps(22, end) forwards, blink 0.7s step-end infinite;
+    animation: typingMobile 3s steps(22, end) forwards 0.4s, blink 0.7s step-end infinite;
   }
 
   @keyframes typingMobile {
     from { width: 0 }
-    to { width: 22ch; } 
+    to { width: 23ch; } 
   }
 }
 
