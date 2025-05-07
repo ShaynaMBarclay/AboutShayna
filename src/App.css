@@ -904,7 +904,7 @@ body.dark-mode .project-btn:hover {
 
   @keyframes typingMobile {
     from { width: 0 }
-    to { width: 23ch; } 
+    to { width: 24ch; } 
   }
 }
 
