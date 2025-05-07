@@ -30,12 +30,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    border-radius: 2.4rem;
+    border-radius: 4.5rem;
     color: rgb(0, 0, 0);
     height: auto;
     margin: 2%;
     max-width: 75rem; 
-    background-color: #be4d9155;
+    background-color: #dca0c4;
     overflow-y: auto;
     text-align: center; 
   }
@@ -175,12 +175,13 @@ body {
 
   /* Hover Effects */
   .buttons-homepage a:hover {
-      background-color: #da99c0af;
+      background-color:  #dca0c4;
       transform: scale(1.1); 
   }
 
   .see-more-link:hover {
       color: #ffffff;
+      background-color: #56394a;
   }
 
   .download-button:hover {
@@ -286,7 +287,7 @@ body {
   padding: 1rem 3px;
   border: 0.17rem solid #000000;
   border-radius: 1rem;
-  background-color: #c592b0cc;
+  background-color: #dca0c4;
   font-size: 25px;
   font-weight: bold;
   font-family: "Roboto Mono", serif;
@@ -339,7 +340,7 @@ body {
 
 .button-aboutme:hover {
   color:  #ffffff;
-  background-color: #da99c0af;
+  background-color:  #dca0c4;
   transform: scale(1.1); 
   cursor: pointer;
 }
@@ -352,7 +353,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin: 2% 5% 2% 5%;
-    background-color: #b2689468;
+    background-color: #dca0c4;
     border: 3px solid #000000;
     border-radius: 2.4rem;
     font-family: "Roboto Mono", serif;
