@@ -24,7 +24,7 @@ body {
 
   /* HER0 SECTION */
   .hero {
-    border: 3.5px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     gap: 10px;
     display: flex;
     flex-direction: column;
@@ -263,6 +263,10 @@ body {
 
 .about-text {
   line-height: 1.8rem;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 2rem;
+  margin-top: 1rem;
 }
 
 
@@ -285,7 +289,7 @@ body {
   width: 14rem;
   height: 13rem;
   padding: 1rem 3px;
-  border: 0.17rem solid #000000;
+  border: 3px solid black;
   border-radius: 1rem;
   background-color: #dca0c4;
   font-size: 25px;
@@ -312,7 +316,7 @@ body {
 }
 
 .divider {
-  width: 0.7rem; 
+  width: 0.9rem; 
   background-color: #000000;  
   align-self: stretch;
   margin: 0 1rem;
@@ -371,6 +375,7 @@ body {
   align-items: center;
   width: 100%;
   margin-top: 0;
+  
 }
 
 .skill-badge h2 {
@@ -393,6 +398,7 @@ body {
   text-align: center;
   font-size: 11px;
   transition: transform 0.3s ease-in-out;
+  border: 2px solid black;
 }
 
 .skill-badge .badge:hover {
@@ -523,6 +529,7 @@ button:hover {
   height: auto;
   border-radius: 10px;
   transition: transform 0.3s;
+  border: 3px solid black;
 }
 
 .project-item:hover .project-image {
@@ -545,6 +552,7 @@ button:hover {
 }
 
 .modal-content {
+
   background:#dca0c4;
   padding: 2rem;
   border-radius: 35px;
@@ -624,7 +632,7 @@ button:hover {
   margin: 0.2rem;
   background: #aa619200;
   border-radius: 5rem;
-  font-size: 1.3rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -655,6 +663,11 @@ body.dark-mode .hero {
   border-color: white;
 }
 
+body.dark-mode .profile-picture {
+  border-color: white;
+}
+
+
 body.dark-mode .see-more-link {
   background-color: #9659748b;
   border-color: white;
@@ -677,6 +690,7 @@ body.dark-mode .download-button:hover {
 
 body.dark-mode .about-text {
   color:#ccc;
+  border-color: white;
 }
 
 body.dark-mode .button-aboutme {
@@ -695,11 +709,12 @@ body.dark-mode .divider {
 
 body.dark-mode .webdevskills {
   border-color: white;
+  background-color: #b74a7b8b !important;
 }
 
 body.dark-mode .skill-box {
-  background-color: #b74a7b8b;
   border-color: white;
+  background-color: #b74a7b8b
 }
 
 body.dark-mode .skill-icon {
@@ -707,8 +722,12 @@ body.dark-mode .skill-icon {
 }
 
 body.dark-mode .badge {
-  background-color: #b74a7b8b;
-  
+  background-color: #7c3052;
+  border-color: white;
+}
+
+body.dark-mode .badge span {
+  color: white;
 }
 
 body.dark-mode .contact-info {
@@ -729,6 +748,10 @@ body.dark-mode .project-btn {
   background-color: #54283c;
   border-color: white;
   color: white;
+}
+
+body.dark-mode .project-image {
+  border-color: white;
 }
 
 body.dark-mode .project-btn:hover {
