@@ -13,6 +13,11 @@ function Skills() {
         icon="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
         level="Intermediate"
       />
+        <SkillBadge 
+          label="TypeScript" 
+          icon="https://cdn.worldvectorlogo.com/logos/typescript.svg"
+          level="Beginner"
+        />
       <SkillBadge 
         label="CSS" 
         icon="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
@@ -33,6 +38,16 @@ function Skills() {
     icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
     level="Intermediate"
     />
+      <SkillBadge 
+          label="MongoDB" 
+          icon="https://webimages.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg"
+          level="Intermediate"
+        />
+        <SkillBadge 
+          label="AI Integration" 
+          icon="https://cdn-icons-png.flaticon.com/512/4712/4712100.png"
+          level="Beginner"
+        />
     <SkillBadge 
   label="Photoshop" 
   icon="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
