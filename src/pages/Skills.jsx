@@ -44,6 +44,11 @@ function Skills() {
           level="Intermediate"
         />
         <SkillBadge 
+         label="RESTful APIs" 
+         icon="https://cdn-icons-png.flaticon.com/512/2848/2848540.png"
+         level="Intermediate"
+       />
+        <SkillBadge 
           label="AI Integration" 
           icon="https://cdn-icons-png.flaticon.com/512/4712/4712100.png"
           level="Beginner"
@@ -68,6 +73,16 @@ function Skills() {
   icon={backend}
   level="Intermediate"
   />
+  <SkillBadge 
+  label="Git" 
+  icon="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+  level="Intermediate"
+/>
+<SkillBadge 
+  label="GitHub" 
+  icon="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+  level="Intermediate"
+/>
       </div>
       </div>
       
