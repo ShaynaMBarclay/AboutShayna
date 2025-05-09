@@ -18,6 +18,11 @@ function Skills() {
           icon="https://cdn.worldvectorlogo.com/logos/typescript.svg"
           level="Beginner"
         />
+        <SkillBadge 
+       label="HTML" 
+       icon="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+       level="Expert"
+/>
       <SkillBadge 
         label="CSS" 
         icon="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
@@ -63,6 +68,16 @@ function Skills() {
   icon={colorwheel}
   level="Expert"
   />
+  <SkillBadge 
+  label="Figma" 
+  icon="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"
+  level="Beginner"
+/>
+<SkillBadge 
+  label="Canva" 
+  icon="https://cdn-icons-png.flaticon.com/512/5968/5968700.png"
+  level="Intermediate"
+/>
   <SkillBadge
   label="Frontend"
   icon={frontend}
