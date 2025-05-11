@@ -59,7 +59,7 @@ function Contact() {
                 </a>
             </p>
             <p>
-                <a href="https://x.com/shaydotdev" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faTwitter} className="social-icon" /> 
                 </a>
             </p>
