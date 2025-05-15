@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { FaLightbulb, FaSyncAlt, FaHardHat, FaRocket } from "react-icons/fa";
+
+
 function AboutMe() {
+    
     return (
         <div>
             <section className="about-me">
