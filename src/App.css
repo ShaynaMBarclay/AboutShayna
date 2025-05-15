@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  
+   
 }
 
 body {
@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-color: #f8bde055;
   transition: background-color 0.85s ease, color 0.85s ease;
+  
 }
 
 .page-container {
@@ -472,15 +473,60 @@ body {
 
 .contact-page {
   max-width: 1200px; 
-  margin: 3% 5% 3% 5%;
+  margin: 3% auto;
   padding: 40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .contact-page {
+    flex-direction: column;
+    padding: 20px;
+    margin: 2% 5%;
+    gap: 20px;
+  }
+
+  .contact-info,
+  .contact-form-container {
+    width: 100%;
+    padding: 2rem;
+  }
 }
 
 /* Contact Information */
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px) scale(0.95);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(15px) scale(1.05);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px) scale(0.95);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-15px) scale(1.05);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
 .contact-info {
   flex: 1;
   text-align: center;
@@ -490,6 +536,7 @@ body {
   border-radius: 25px;
   font-family: "Roboto Mono", serif;
   padding: 3.5rem;
+  animation: bounceInLeft 1s ease forwards;
 }
 
 .contact-info p {
@@ -505,7 +552,7 @@ body {
   border: 3px solid #000000;
   border-radius: 25px;
   font-family: "Roboto Mono", serif;
-  
+  animation: bounceInRight 1s ease forwards;
 }
 
 .contact-form {
