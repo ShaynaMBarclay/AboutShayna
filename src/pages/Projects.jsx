@@ -7,6 +7,7 @@ import pixelpet from "../assets/pixelpet.png";
 import frames from "../assets/Frames.png";
 import crbarclay from "../assets/crbarclay.png";
 import journal from "../assets/journal.png";
+import samport from "../assets/samport.png";
 
 
 function Projects() {
@@ -14,6 +15,16 @@ function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
+                {
+
+            id: 1.4,
+            title: "Samantha's Digital Portfolio",
+            image: samport,
+            description: `A sleek one-page React app designed to showcase a hairstylist’s work, personality, and booking info in a modern, animated format. 
+            I built this portfolio with custom components, smooth transitions, and responsive styling to highlight the stylist’s brand while keeping the user experience bold and intuitive. 
+            The navbar features the stylist's name and a "Book with Me" button that links directly to their Instagram, creating a seamless bridge between portfolio and bookings.`,
+            link: "https://samanthakerivan.netlify.app/"
+             },
         {
 
             id: 1.3,
