@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaLightbulb, FaSyncAlt, FaHardHat, FaRocket } from "react-icons/fa";
+import certificateImage from "../assets/IHCert.png";
 
 
 function AboutMe() {
@@ -28,6 +29,17 @@ function AboutMe() {
                    <Link to="/contact" className="button-aboutme">Contact Me!</Link> 
                    
                     </div>
+                    <a
+                        href="https://www.credential.net/1d70bb7b-ad99-4375-8e86-382cce776203#acc.tWvdwRlS" 
+                        target="_blank"
+                         rel="noopener noreferrer"
+                    >
+                        <img
+                        src={certificateImage}
+                        alt="Ironhack Certification"
+                       className="certificate-image"
+                       />
+                     </a>
                 </div>
             
                 <div className="divider"></div>
