@@ -8,6 +8,7 @@ import frames from "../assets/Frames.png";
 import crbarclay from "../assets/crbarclay.png";
 import journal from "../assets/journal.png";
 import samport from "../assets/samport.png";
+import angyportal from "../assets/angyportal.png";
 
 
 function Projects() {
@@ -37,8 +38,21 @@ function Projects() {
             link: "https://myhappylittlejournal.com/"
              },
 
-        {
+             {
+             id: 2.6,
+            title: "The Angy Portal",
+            image: angyportal,
+            description: `AngyPortal is a web-based communication platform designed to help people express grievances to their partners in a structured, emotionally safe way. 
+            After a partner consents via a secure email verification process, users can submit feedback through a guided form. 
+            The platform then sends this feedback directly to the partner via email. 
+            Built with a React front end and a Firebase backend, AngyPortal emphasizes clarity, consent, and accountability in relationships,
+             empowering users to voice their concerns while encouraging thoughtful dialogue.`,
+            link: "https://angyportal.love/"
+             },
 
+             
+
+        {
               id: 1,
               title: "Pixel Pet",
               image: pixelpet,
