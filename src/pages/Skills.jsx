@@ -43,6 +43,11 @@ function Skills() {
     icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
     level="Intermediate"
     />
+    <SkillBadge 
+  label="Firebase" 
+  icon="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg"
+  level="Intermediate"
+/>
       <SkillBadge 
           label="MongoDB" 
           icon="https://webimages.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg"
