@@ -1,9 +1,18 @@
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaLightbulb, FaSyncAlt, FaHardHat, FaRocket } from "react-icons/fa";
 import certificateImage from "../assets/IHCert.png";
 
 
 function AboutMe() {
+    const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    // Trigger the animation shortly after mount
+    const timer = setTimeout(() => setAnimate(true), 100);
+    return () => clearTimeout(timer);
+  }, []);
+
     return (
         <div>
             <section className="about-me">
@@ -37,7 +46,7 @@ function AboutMe() {
                         <img
                         src={certificateImage}
                         alt="Ironhack Certification"
-                       className="certificate-image"
+                       className={`certificate-image ${animate ? "pop-in" : ""}`}
                        />
                      </a>
                 </div>
