@@ -7,7 +7,7 @@
   .vertical-navbar {
     width: auto;
     max-width: 450px;
-    margin: 0 auto; 
+    margin: 1rem auto; 
     left: 0;
     right: 0;
     position: relative;
@@ -87,10 +87,7 @@
   }
 
     /* CONTACT */
-    .contact-page {
-      flex-direction: column;
-    }
-
+    
     /* Contact Information */
     .contact-info {
       font-size: 22px;
@@ -124,7 +121,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
   .vertical-navbar {
-    padding: 0.4rem;
+    padding: 0.6rem;
     left: 2rem;
     right: 2rem;
     max-width: 30rem;
@@ -208,7 +205,7 @@
 	  flex-wrap: nowrap;
 	  justify-content: center;
 	  align-items: center;
-    margin: 1rem;
+    margin: 1.6rem;
     padding: 5rem 1rem;
     max-width: 22rem;
   }
