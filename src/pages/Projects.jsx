@@ -104,7 +104,7 @@ function Projects() {
               id: 4,
               title: "Frames & Levels",
               image: frames,
-              description: `Frames & Levels is a MERN-stack gaming platform where users curate their game collections, track owned and wishlist titles, and share reviews and thoughts on each game. 
+              description: `Frames & Levels is my third project at Ironhack, a MERN-stack gaming platform where users curate their game collections, track owned and wishlist titles, and share reviews and thoughts on each game. 
               The platform helps gamers rediscover old favorites and explore new adventures.
               Built as a Single Page Application (SPA) with React, it features a REST API backend using ExpressJS, MongoDB, and Mongoose, supporting full CRUD functionality across multiple database models. 
               Users can sign up, log in, and manage their collections securely with encrypted authentication.`,
