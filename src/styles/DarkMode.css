@@ -127,6 +127,7 @@ body.dark-mode .contact-form-container {
 
 body.dark-mode .modal-content {
   background-color: #50122e;
+  border: 3px solid rgb(255, 255, 255);
 }
 
 body.dark-mode .project-btn {

@@ -75,7 +75,7 @@
 /* Contact Form */
 .contact-form-container {
   flex: 1;
-  background: #f9f9f9;
+  background: #ffcfec6c;
   padding: 2.4rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   border: 3px solid #000000;
@@ -110,10 +110,12 @@ button {
   cursor: pointer;
   font-family: "Roboto Mono", serif;
   transition: all 0.6s ease;
+  
 }
 
 button:hover {
-  background-color: #eebeda5e;
+  background-color: #ffcfec;
+  color: black;
 }
 
 .success-message {

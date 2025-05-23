@@ -36,6 +36,7 @@
 
 .modal-overlay {
   position: fixed;
+  
   top: 0;
   left: 0;
   width: 100%;
@@ -50,7 +51,7 @@
 }
 
 .modal-content {
-
+  border: 3px solid rgb(0, 0, 0);
   background:#dca0c4;
   padding: 2rem;
   border-radius: 35px;
@@ -106,7 +107,7 @@
 }
 .project-btn:hover {
   color:  #000000;
-  background-color: #dca0c4;
+  background-color: #ffcfec;
   transform: scale(1.1); 
   cursor: pointer;
 }

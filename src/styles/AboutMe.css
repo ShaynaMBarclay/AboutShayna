@@ -154,7 +154,7 @@
 
 .button-aboutme:hover {
   color:  #ffffff;
-  background-color:  #dca0c4;
+  background-color:  #dca0c4c0;
   transform: scale(1.1); 
   cursor: pointer;
 }
