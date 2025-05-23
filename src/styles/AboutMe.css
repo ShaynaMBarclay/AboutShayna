@@ -1,0 +1,160 @@
+ /*ABOUT ME*/
+.about-me {
+  overflow: visible;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  color: rgb(0, 0, 0);
+  margin: 3% 5% 3% 5%;
+  max-width: 70rem;
+  font-family: "Roboto Mono", serif;
+  font-size: 20px;
+  gap: 1.5rem;
+}
+
+.about-text {
+  line-height: 1.9rem;
+  border: 3px solid black;
+  border-radius: 30px;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+
+
+.skills-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.skill-box {
+  width: 14rem;
+  height: 13rem;
+  padding: 1rem 3px;
+  border: 3px solid black;
+  border-radius: 1rem;
+  background-color: #dca0c4;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Roboto Mono", serif;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  opacity: 0;
+   animation: fadeInOnly 1.5s ease forwards;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1), 
+              box-shadow 0.6s ease !important;
+  will-change: transform;
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.certificate-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease-out;
+}
+
+.certificate-image.pop-in {
+  animation: popIn 0.4s ease-out forwards;
+}
+
+
+.skill-box:hover {
+ transform: translateY(-6px) scale(1.1) !important;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes fadeInOnly {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill-box:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.skill-box:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.skill-box:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.skill-box:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+
+.skill-icon {
+  font-size: 40px; 
+  color: #853565db; 
+}
+
+.divider {
+  width: 0.9rem; 
+  background-color: #000000;  
+  align-self: stretch;
+  margin: 0 1rem;
+}
+
+.button-aboutme {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto Mono", serif;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.2s;
+  border-radius: 3rem;
+  margin-top: 0.5rem;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 1.7rem 1rem;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+}
+
+.button-aboutme:hover {
+  color:  #ffffff;
+  background-color:  #dca0c4;
+  transform: scale(1.1); 
+  cursor: pointer;
+}

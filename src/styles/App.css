@@ -1,0 +1,32 @@
+@import './HomePage.css';
+@import './Navbar.css';
+@import './AboutMe.css';
+@import './Skills.css';
+@import './Contact.css';
+@import './Projects.css';
+@import './DarkMode.css';
+@import './MediaQueries.css';
+
+* {
+  box-sizing: border-box;
+   
+}
+
+body {
+  font-size: 1.2rem ;
+  margin: 0;
+  background-color: #f8bde055;
+  transition: background-color 0.85s ease, color 0.85s ease;
+  
+}
+
+.page-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}

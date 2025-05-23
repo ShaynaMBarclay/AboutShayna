@@ -1,0 +1,154 @@
+/* DARK MODE TOGGLE*/
+.darkmode-topbar {
+  width: 100%;
+  background-color: #ffffff00;
+  padding: 0.1rem 50px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  
+}
+
+/* Toggle button */
+.darkmode-toggle {
+  margin: 0.2rem;
+  background: #aa619200;
+  border-radius: 5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+body.dark-mode .darkmode-toggle {
+  background: #00000000;
+  transition: all 0.6s ease;
+}
+
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #393237;
+  color: #f5f5f5;
+  
+}
+
+body.dark-mode a {
+  color: #000000;
+}
+
+body.dark-mode .vertical-navbar {
+  background-color: #b74a7b8b;
+  
+}
+body.dark-mode .hero {
+  background-color:  #b74a7b8b;
+  border-color: white;
+}
+
+body.dark-mode .profile-picture {
+  border-color: white;
+}
+
+
+body.dark-mode .see-more-link {
+  background-color: #9659748b;
+  border-color: white;
+  color: white;
+}
+
+body.dark-mode .see-more-link:hover {
+  background-color: #a0456e8b;
+}
+
+body.dark-mode .download-button {
+  background-color: #2f16218b;
+  border-color: white;
+  color: white;
+}
+
+body.dark-mode .download-button:hover {
+  background-color: #7e3c588b
+}
+
+body.dark-mode .about-text {
+  color:#ccc;
+  border-color: white;
+}
+
+body.dark-mode .button-aboutme {
+  background-color: #b74a7b8b;
+  border-color: white;
+  color: white;
+}
+
+body.dark-mode .button-aboutme:hover {
+  background-color: #6b2c488b;
+}
+
+body.dark-mode .divider {
+  background-color: white;
+}
+
+body.dark-mode .webdevskills {
+  border-color: white;
+  background-color: #b74a7b8b !important;
+}
+
+body.dark-mode .skill-box {
+  border-color: white;
+  background-color: #b74a7b8b
+}
+
+body.dark-mode .skill-icon {
+  color:#f89bd3;
+}
+
+body.dark-mode .badge {
+  background-color: #50122e;
+  border-color: white;
+}
+
+body.dark-mode .badge span {
+  color: white;
+}
+
+body.dark-mode .contact-info {
+  background-color: #b74a7b8b;
+  border-color: white;
+}
+
+body.dark-mode .contact-form-container {
+  background-color: #50122e;
+  border-color: white;
+}
+
+body.dark-mode .modal-content {
+  background-color: #50122e;
+}
+
+body.dark-mode .project-btn {
+  background-color: #54283c;
+  border-color: white;
+  color: white;
+}
+
+body.dark-mode .project-image {
+  border-color: white;
+}
+
+body.dark-mode .project-btn:hover {
+  background-color: #6b2c488b;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: hotpink;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: rgb(238, 63, 151);
+}
