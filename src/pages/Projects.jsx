@@ -9,6 +9,7 @@ import crbarclay from "../assets/crbarclay.png";
 import journal from "../assets/journal.png";
 import samport from "../assets/samport.png";
 import angyportal from "../assets/angyportal.png";
+import lillyport from "../assets/lillysport.png";
 
 
 function Projects() {
@@ -27,7 +28,16 @@ function Projects() {
             link: "https://samanthakerivan.netlify.app/"
              },
         {
-
+            id: 1.4,
+            title: "LooksByLil Digital Portfolio",
+            image: lillyport,
+            description: `This portfolio is a vibrant one-page React app created for a barber/cosmetologist to showcase their work and style. 
+            It blends retro neon aesthetics with modern web design principles.
+            I crafted it with animated glowing effects, bold typography, and a fixed sidebar that channels a vintage arcade feel while ensuring smooth, responsive navigation across devices.
+            The design highlights the client’s creativity and personality through eye-catching visuals, while keeping the user interface clean and easy to explore.`,
+            link: "https://looksbylilportfolio.netlify.app/"
+             },
+        {
             id: 1.3,
             title: "My Happy Little Journal",
             image: journal,
