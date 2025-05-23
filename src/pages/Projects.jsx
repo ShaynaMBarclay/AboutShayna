@@ -87,8 +87,8 @@ function Projects() {
             title: "Adopt Me",
             image: adoptme,
             description: `Adopt Me was my second project at Ironhack, showcasing my expertise in web development. 
-            This Single Page Application (SPA) is built using React with functional components and hooks, offering 
-            a seamless and dynamic user experience across multiple views.`,
+            This website is built using React with functional components and hooks, offering 
+            a seamless and dynamic user experience across multiple views where Users can view pets for adoption, as well as add an animal that needs adopting.`,
             link: "https://adoptmemeow.netlify.app/"
         },
         {
