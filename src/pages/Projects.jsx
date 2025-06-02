@@ -10,6 +10,7 @@ import journal from "../assets/journal.png";
 import samport from "../assets/samport.png";
 import angyportal from "../assets/angyportal.png";
 import lillyport from "../assets/lillysport.png";
+import colorfulcourt from "../assets/colorfulcourt.png";
 
 
 function Projects() {
@@ -46,6 +47,15 @@ function Projects() {
             The app also supports importing and exporting journal entries for personal backups or cross-device use. 
             Built with React and React Router, it features clean user interface & smooth navigation between pages.`,
             link: "https://myhappylittlejournal.com/"
+             },
+             {
+              id: 3.67,
+            title: "Colorful.Court Portfolio",
+            image: colorfulcourt,
+            description: `This digital portfolio was built with React and Vite for a hairstylist whose brand blends edgy creativity with spooky, Halloween-inspired vibes.
+            It features animated text, glowing effects, and eerie neon accents that reflect the stylist’s bold aesthetic and the unique atmosphere of their salon.
+            Designed as a responsive one-page site, it captures the client’s personality through immersive visuals while keeping navigation smooth and user-friendly across all devices.`,
+            link: "https://colorfulcourtportfolio.netlify.app/"
              },
 
              {
