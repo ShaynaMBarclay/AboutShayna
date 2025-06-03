@@ -153,3 +153,8 @@ body.dark-mode .project-btn:hover {
 .social-icon:hover {
   color: rgb(238, 63, 151);
 }
+
+body.dark-mode .certificate-image {
+  
+  border: 3px solid rgb(255, 255, 255);
+}
