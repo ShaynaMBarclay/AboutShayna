@@ -128,7 +128,7 @@
     bottom: 1rem;           
     top: auto;
     z-index: 99999;
-    background-color: #ffcfec8c
+    background-color: #ffcfec
   }
 
   .navbar-links {
@@ -139,7 +139,6 @@
    /* HER0 SECTION */
   .hero {
     margin:  5rem 0.1rem 7rem;
-    padding: 1rem;
     max-width: 22rem;
     border-radius: 2.7rem;
   }
