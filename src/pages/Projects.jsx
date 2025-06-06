@@ -11,6 +11,7 @@ import samport from "../assets/samport.png";
 import angyportal from "../assets/angyportal.png";
 import lillyport from "../assets/lillysport.png";
 import colorfulcourt from "../assets/colorfulcourt.png";
+import rikkiport from "../assets/rikkiport.png";
 
 
 function Projects() {
@@ -18,6 +19,17 @@ function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
+        {
+
+            id: 1.4,
+            title: "Rikki's Digital Portfolio",
+            image: rikkiport,
+            description: `This responsive one-page React app was designed for a professional stylist to elegantly showcase their work and creative style. 
+            Built with React (Vite) and styled using modern CSS techniques, the site blends soft visual elements, subtle animations, and a sleek, minimal layout. 
+            Key features include a responsive image grid, a custom fade-in title animation, and a touch of personality through carefully selected fonts and shadows. 
+            The project emphasizes clarity, visual flow, and an inviting user experience across all devices.`,
+            link: "https://rikkisportfolio.netlify.app/"
+             },
                 {
 
             id: 1.4,
