@@ -12,6 +12,7 @@ import angyportal from "../assets/angyportal.png";
 import lillyport from "../assets/lillysport.png";
 import colorfulcourt from "../assets/colorfulcourt.png";
 import rikkiport from "../assets/rikkiport.png";
+import skindex from "../assets/skindex.png";
 
 
 function Projects() {
@@ -19,6 +20,16 @@ function Projects() {
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
+         {
+
+            id: 1.6453,
+            title: "The Skindex Analyzer",
+            image: skindex,
+            description: `Skindex Analyzer is a full-stack AI-powered skincare analysis web app built with React and Firebase, integrating Google's Gemini API for intelligent product evaluation. 
+            Users input their skincare routine, and the app provides a personalized analysis, ideal usage times, potential ingredient conflicts, and AM/PM regimen suggestions. 
+            Additional features include email export, emoji-enhanced summaries, and a mobile-first responsive design.`,
+            link: "https://skindexanalyzer.com/"
+             },
         {
 
             id: 1.4,
