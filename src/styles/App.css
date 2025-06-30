@@ -15,7 +15,7 @@
 body {
   font-size: 1.2rem ;
   margin: 0;
-  background-color: #f8bde055;
+  background-color: #fde5f8;
   transition: background-color 0.85s ease, color 0.85s ease;
 }
 
