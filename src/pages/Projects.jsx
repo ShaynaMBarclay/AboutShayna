@@ -30,8 +30,17 @@ function Projects() {
             Additional features include email export, emoji-enhanced summaries, and a mobile-first responsive design.`,
             link: "https://skindexanalyzer.com/"
              },
-        {
-
+             {
+            id: 1.3,
+            title: "My Happy Little Journal",
+            image: journal,
+            description: `An interactive web app that helps users track their emotions by writing or speaking journal entries. 
+            Users can choose or type their mood, receive AI-generated mental health tips or motivational quotes via Gemini AI integration, and save their reflections locally. 
+            The app also supports importing and exporting journal entries for personal backups or cross-device use. 
+            Built with React and React Router, it features clean user interface & smooth navigation between pages.`,
+            link: "https://myhappylittlejournal.com/"
+             },
+            {
             id: 1.4,
             title: "Rikki's Digital Portfolio",
             image: rikkiport,
@@ -61,16 +70,7 @@ function Projects() {
             The design highlights the client’s creativity and personality through eye-catching visuals, while keeping the user interface clean and easy to explore.`,
             link: "https://looksbylilportfolio.netlify.app/"
              },
-        {
-            id: 1.3,
-            title: "My Happy Little Journal",
-            image: journal,
-            description: `An interactive web app that helps users track their emotions by writing or speaking journal entries. 
-            Users can choose or type their mood, receive AI-generated mental health tips or motivational quotes via Gemini AI integration, and save their reflections locally. 
-            The app also supports importing and exporting journal entries for personal backups or cross-device use. 
-            Built with React and React Router, it features clean user interface & smooth navigation between pages.`,
-            link: "https://myhappylittlejournal.com/"
-             },
+           
              {
               id: 3.67,
             title: "Colorful.Court Portfolio",
