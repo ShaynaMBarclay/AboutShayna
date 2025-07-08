@@ -12,7 +12,7 @@ import angyportal from "../assets/angyportal.png";
 import lillyport from "../assets/lillysport.png";
 import colorfulcourt from "../assets/colorfulcourt.png";
 import rikkiport from "../assets/rikkiport.png";
-import skindex from "../assets/skindex.png";
+import skindex from "../assets/skin.png";
 
 
 function Projects() {
