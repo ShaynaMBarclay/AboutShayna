@@ -13,6 +13,7 @@ import lillyport from "../assets/lillysport.png";
 import colorfulcourt from "../assets/colorfulcourt.png";
 import rikkiport from "../assets/rikkiport.png";
 import skindex from "../assets/skin.png";
+import recipe from "../assets/recipe.png";
 
 
 function Projects() {
@@ -40,6 +41,27 @@ function Projects() {
             Built with React and React Router, it features clean user interface & smooth navigation between pages.`,
             link: "https://myhappylittlejournal.com/"
              },
+              {
+            id: 1.789,
+            title: "La Cucina di Shay / Shay's Kitchen",
+            image: recipe,
+            description: `A responsive and dynamic full stack web application that allows users to explore, review, and see added recipes and restaurants categorized by country. The app includes an admin-only review form, image uploads via Firebase Storage, blog-style recipe posts, and a polished UI with mobile-first responsive design. 
+            I implemented custom components for country filtering, dynamic star ratings, protected admin routes, and sleek UI animations using CSS. 
+            Firebase handles authentication, real time data updates, and secure media storage.`,
+            link: "https://lacucinadishay.com/"
+             },
+               {
+             id: 2.6,
+            title: "The Angy Portal",
+            image: angyportal,
+            description: `AngyPortal is a web-based communication platform designed to help people express grievances to their partners in a structured, emotionally safe way. 
+            After a partner consents via a secure email verification process, users can submit feedback through a guided form. 
+            The platform then sends this feedback directly to the partner via email. 
+            Built with a React front end and a Firebase backend, AngyPortal emphasizes clarity, consent, and accountability in relationships,
+             empowering users to voice their concerns while encouraging thoughtful dialogue.`,
+            link: "https://angyportal.love/"
+             },
+
             {
             id: 1.4,
             title: "Rikki's Digital Portfolio",
@@ -79,21 +101,7 @@ function Projects() {
             It features animated text, glowing effects, and eerie neon accents that reflect the stylist’s bold aesthetic and the unique atmosphere of their salon.
             Designed as a responsive one-page site, it captures the client’s personality through immersive visuals while keeping navigation smooth and user-friendly across all devices.`,
             link: "https://colorfulcourtportfolio.netlify.app/"
-             },
-
-             {
-             id: 2.6,
-            title: "The Angy Portal",
-            image: angyportal,
-            description: `AngyPortal is a web-based communication platform designed to help people express grievances to their partners in a structured, emotionally safe way. 
-            After a partner consents via a secure email verification process, users can submit feedback through a guided form. 
-            The platform then sends this feedback directly to the partner via email. 
-            Built with a React front end and a Firebase backend, AngyPortal emphasizes clarity, consent, and accountability in relationships,
-             empowering users to voice their concerns while encouraging thoughtful dialogue.`,
-            link: "https://angyportal.love/"
-             },
-
-             
+             }, 
 
         {
               id: 1,
