@@ -14,13 +14,23 @@ import colorfulcourt from "../assets/colorfulcourt.png";
 import rikkiport from "../assets/rikkiport.png";
 import skindex from "../assets/skin.png";
 import recipe from "../assets/recipe.png";
-
+import moon from "../assets/moon.png";
 
 function Projects() {
 
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
+        {
+
+            id: 1.64543253,
+            title: "Moon & Cards",
+            image: moon,
+            description: `Moon and Cards is a full-stack web app that lets users ask questions, draw tarot cards, and receive interactive readings. 
+            Built with React (Vite) and an Express/Node.js API, it’s deployed on Netlify and Render, 
+            showcasing my ability to design and deploy responsive, end-to-end applications.`,
+            link: "https://moonandcards.netlify.app/"
+             },
          {
 
             id: 1.6453,
