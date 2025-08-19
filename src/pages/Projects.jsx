@@ -29,7 +29,7 @@ function Projects() {
             description: `Moon and Cards is a full-stack web app that lets users ask questions, draw tarot cards, and receive interactive readings. 
             Built with React (Vite) and an Express/Node.js API, it’s deployed on Netlify and Render, 
             showcasing my ability to design and deploy responsive, end-to-end applications.`,
-            link: "https://moonandcards.netlify.app/"
+            link: "https://lune.cards/"
              },
          {
 
