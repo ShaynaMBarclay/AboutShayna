@@ -58,11 +58,7 @@ function Contact() {
                     <FontAwesomeIcon icon={faGithub} className="social-icon" /> 
                 </a>
             </p>
-            <p>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faTwitter} className="social-icon" /> 
-                </a>
-            </p>
+        
          </div>
 
          <div className="contact-form-container">

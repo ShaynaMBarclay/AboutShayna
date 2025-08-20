@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pfp from '../assets/pfpblacknwhite.jpg';
+import pfp from '../assets/pfpbw.jpeg';
 import resume from "../assets/ShaynaBarclayRESUMEAug.pdf"
 
 function HomePage() {

@@ -66,19 +66,20 @@
 }
 
   .profile-picture {
-    width: 19rem;  
-    height: 19rem;
+    width: 17rem;  
+    height: 17rem;
     border: 4px solid #000000;
-    border-radius: 50%;  
+    border-radius: 10rem;   
     object-fit: cover;  
     margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     animation: floatIn 1.2s ease-out forwards, floating 4s ease-in-out infinite;
-    opacity: 0; /* start hidden for entrance effect */
+    opacity: 0; 
     transform: translateY(30px) scale(0.9);
 }
+
 
 @keyframes floatIn {
   0% {
@@ -128,12 +129,12 @@
       align-items: center;
       text-decoration: none;
       font-family: "Roboto Mono", serif;
-      font-size: 20px;
+      font-size: 1rem;
       font-weight: bold;
       transition: color 0.3s, transform 0.2s;
       border-radius: 100px;
       border: 3px solid rgb(0, 0, 0);
-      padding: 1rem 2rem;
+      padding: 1rem 0.9rem;
       cursor: pointer;
       width: auto;
       height: auto;

@@ -93,8 +93,8 @@ body.dark-mode .divider {
 }
 
 body.dark-mode .webdevskills {
-  border-color: white;
-  background-color: #b74a7b8b !important;
+  /*border-color: white;
+  background-color: #b74a7b8b !important;*/
 }
 
 body.dark-mode .skill-box {

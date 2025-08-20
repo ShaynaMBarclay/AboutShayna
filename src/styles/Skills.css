@@ -6,11 +6,11 @@
     align-items: center;
     justify-content: flex-start;
     margin: 2% 5% 2% 5%;
-    background-color: #dca0c4;
-    border: 3px solid #000000;
+    /*background-color: #dca0c4;
+    border: 3px solid #000000;*/
     border-radius: 2.4rem;
     font-family: "Roboto Mono", serif;
-    max-width: 55rem;
+    max-width: 80rem;
     width: 60rem;
     padding-bottom: 3rem;
     box-sizing: border-box;
