@@ -174,16 +174,7 @@ function Projects() {
               Users can sign up, log in, and manage their collections securely with encrypted authentication.`,
               link: "https://frames-and-levels.netlify.app/"
         },
-         {
-             id: 5,
-             title: "The Dominator of Sylvariae",
-             image: DomofSylv,
-             description:`The Dominator of Sylvariae was my first project during my education at Ironhack, 
-             designed to showcase my foundational skills in web development. This browser-based game demonstrates my 
-             proficiency in HTML, CSS, JavaScript, DOM manipulation, and Object-Oriented Programming. 
-             Players control a cat humanoid tasked with defeating creatures of the void.`,
-             link: "https://shaynambarclay.github.io/The-Dominator-of-Sylvariae/"
-        }
+         
     ];
     return (
         <div className="my-projects">
