@@ -15,6 +15,7 @@ import rikkiport from "../assets/rikkiport.png";
 import skindex from "../assets/skin.png";
 import recipe from "../assets/recipe.png";
 import moon from "../assets/moon.png";
+import crim from "../assets/crim.png";
 
 function Projects() {
 
@@ -70,6 +71,18 @@ function Projects() {
             Built with a React front end and a Firebase backend, AngyPortal emphasizes clarity, consent, and accountability in relationships,
              empowering users to voice their concerns while encouraging thoughtful dialogue.`,
             link: "https://angyportal.love/"
+             },
+
+               {
+            id: 5,
+            title: "Crimson Vial Commissions",
+            image: crim,
+            description: `This project is a responsive, React-based web application designed to handle complex commission requests for 3D artwork. 
+            It features dynamic form fields, file uploads with live image previews, and integrates with Firebase Storage for secure image hosting. 
+            The form submission is powered by EmailJS, allowing automated notifications with uploaded assets. 
+            The UI is styled with custom fantasy-themed fonts, scrollbars, and interactive elements, with full mobile and tablet responsiveness. 
+            Accessibility, usability, and visual hierarchy were carefully considered to provide a seamless experience for users submitting detailed creative requests.`,
+            link: "https://crimson-vial-commissions.netlify.app/"
              },
 
             {
