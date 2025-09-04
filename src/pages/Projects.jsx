@@ -146,6 +146,15 @@ function Projects() {
             Built using React and styled with CSS, the project showcases my ability to create functional and visually appealing web applications tailored to a client's specific needs.`,
             link: "https://crbarclaysolutions.com/"
         },
+         {
+            id: 3,
+            title: "My Website (WIP)",
+            image: portfolio,
+            description: `Welcome to my personal website! I'm Shayna, and this space showcases my experience, skills, and creative touch. 
+            Built with React and functional components, this site is a continuous work in progress as I refine my abilities. 
+            Thanks for stopping by! Feel free to reach out if you have any questions or want to connect.`,
+            link: "https://aboutshayna.dev/"
+        },
         {
             id: 2,
             title: "Adopt Me",
@@ -154,15 +163,6 @@ function Projects() {
             This website is built using React with functional components and hooks, offering 
             a seamless and dynamic user experience across multiple views where Users can view pets for adoption, as well as add an animal that needs adopting.`,
             link: "https://adoptmemeow.netlify.app/"
-        },
-        {
-            id: 3,
-            title: "My Website (WIP)",
-            image: portfolio,
-            description: `Welcome to my personal website! I'm Shayna, and this space showcases my experience, skills, and creative touch. 
-            Built with React and functional components, this site is a continuous work in progress as I refine my abilities. 
-            Thanks for stopping by! Feel free to reach out if you have any questions or want to connect.`,
-            link: "https://aboutshayna.dev/"
         },
         {
               id: 4,
@@ -176,27 +176,32 @@ function Projects() {
         },
          
     ];
-    return (
-        <div className="my-projects">
-            <h2> My Projects</h2>
-           <div className="projects-container">
-            {projects.map((project) => (
-                <div key={project.id} className="project-item" onClick={() => setSelectedProject(project)}>
-                    <img src={project.image} alt={project.title} className="project-image" />
-                    <h3>{project.title}</h3>
-            </div>
-            ))}
-           </div>
+  return (
+    <div className="my-projects">
+      <h2> My Projects</h2>
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <div
+            key={project.id}
+            className="project-item"
+            style={{ animationDelay: `${index * 0.15}s` }} 
+            onClick={() => setSelectedProject(project)}
+          >
+            <img src={project.image} alt={project.title} className="project-image" />
+            <h3>{project.title}</h3>
+          </div>
+        ))}
+      </div>
 
-           {/* Modal */}
-           {selectedProject && (
-            <ProjectModal
-               project={selectedProject}
-               onClose={() => setSelectedProject(null)}
-               />
-           )}
-           </div>
-        );
-      }
-              
+      {/* Modal */}
+      {selectedProject && (
+        <ProjectModal
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
+        />
+      )}
+    </div>
+  );
+}
+
 export default Projects;
