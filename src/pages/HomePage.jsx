@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import pfp from '../assets/pfpbw.jpeg';
-import resume from "../assets/ShaynaBarclayRESUMEAug.pdf"
+import resume from "../assets/ShaynaBarclayRESUMEsept.pdf"
 
 function HomePage() {
     return (
@@ -19,7 +19,7 @@ function HomePage() {
                    <Link to="/about-me" className="see-more-link"> About Me</Link> 
                    <a
                        href={resume}
-                       download="Shayna_Resume"
+                       download="ShaynaBarclay_Resume"
                        className="download-button"
                        >
                         Download my Resume
