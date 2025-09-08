@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import pfp from '../assets/pfpbw.jpeg';
-import resume from "../assets/ShaynaBarclayRESUMEsept.pdf"
+import resume from "../assets/RESUMEofShaynaBarclay.pdf"
 
 function HomePage() {
     return (
