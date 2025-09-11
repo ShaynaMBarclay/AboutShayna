@@ -64,6 +64,16 @@ function Skills() {
             level="Intermediate"
           />
           <SkillBadge 
+            label="JWT" 
+            icon="https://cdn.worldvectorlogo.com/logos/jwt-3.svg"
+            level="Intermediate"
+          />
+          <SkillBadge 
+            label="OAuth" 
+            icon="https://cdn-icons-png.flaticon.com/512/2111/2111615.png"
+            level="Intermediate"
+          />
+          <SkillBadge 
             label="WordPress" 
             icon="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg"
             level="Intermediate"
@@ -76,7 +86,7 @@ function Skills() {
           <SkillBadge 
             label="AI Integration" 
             icon="https://cdn-icons-png.flaticon.com/512/4712/4712100.png"
-            level="Beginner"
+            level="Intermediate"
           />
           <SkillBadge 
             label="Photoshop" 
@@ -116,6 +126,26 @@ function Skills() {
           <SkillBadge 
             label="GitHub" 
             icon="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            level="Intermediate"
+          />
+          <SkillBadge 
+            label="Docker" 
+            icon="https://cdn.worldvectorlogo.com/logos/docker.svg"
+            level="Beginner"
+          />
+           <SkillBadge 
+            label="Netlify" 
+            icon="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg"
+            level="Intermediate"
+          />
+          <SkillBadge 
+            label="Vercel" 
+            icon="https://assets.vercel.com/image/upload/v1662130559/front/favicon/vercel/favicon.ico"
+            level="Intermediate"
+          />
+          <SkillBadge 
+            label="Render" 
+            icon="https://static.thenounproject.com/png/4663325-200.png"
             level="Intermediate"
           />
         </div>
