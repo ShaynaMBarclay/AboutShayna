@@ -22,7 +22,7 @@ function Contact() {
 
         emailjs.send(
           "service_f4sn5bj", 
-          "template_ud9nxsg",
+          "template_ln6j7m4",
           formData,
           "B3sPGFgxCxjI0Tlbj"
         )
