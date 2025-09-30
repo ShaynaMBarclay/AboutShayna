@@ -16,12 +16,24 @@ import skindex from "../assets/skin.png";
 import recipe from "../assets/recipe.png";
 import moon from "../assets/moon.png";
 import crim from "../assets/crim.png";
+import pathfinder from "../assets/pathfinder.png";
 
 function Projects() {
 
     const [selectedProject, setSelectedProject] = useState(null);
 
     const projects = [
+       {
+
+            id: 1.49234023,
+            title: "Pathfinder's Journey",
+            image: pathfinder,
+            description: `Pathfinder’s Tale is a gamified travel storytelling experience built in just four days for the Storyblok Hackathon. 
+            Users explore a 3D interactive globe, open book-like country pages, and dive into immersive chapters featuring foods, activities, and sights. 
+            The project combines React Three Fiber, Storyblok, and Google Gemini AI to deliver dynamic content, while a moderator system keeps stories accurate and engaging. 
+            This project showcases rapid development, creative design, and seamless integration of 3D and AI technologies.`,
+            link: "https://pathfinders-tale.com/"
+             },
         {
 
             id: 1.64543253,
