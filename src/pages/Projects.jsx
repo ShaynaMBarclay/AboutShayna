@@ -26,7 +26,7 @@ function Projects() {
        {
 
             id: 1.49234023,
-            title: "Pathfinder's Journey",
+            title: "Pathfinder's Tale",
             image: pathfinder,
             description: `Pathfinder’s Tale is a gamified travel storytelling experience built in just four days for the Storyblok Hackathon. 
             Users explore a 3D interactive globe, open book-like country pages, and dive into immersive chapters featuring foods, activities, and sights. 
