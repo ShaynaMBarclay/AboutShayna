@@ -44,6 +44,11 @@ function Skills() {
             level="Intermediate"
           />
           <SkillBadge 
+            label="Three.js" 
+            icon="https://upload.wikimedia.org/wikipedia/commons/3/3f/Three.js_Icon.svg"
+            level="Intermediate"
+          />
+          <SkillBadge 
             label="Express" 
             icon="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
             level="Intermediate"
