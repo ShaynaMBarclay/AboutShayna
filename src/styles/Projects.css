@@ -126,3 +126,29 @@
   transform: scale(1.1);
   cursor: pointer;
 }
+
+.projects-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+
+  font-family: "Roboto Mono", monospace !important;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* Theme colors */
+  color: #dca0c4; 
+  background: linear-gradient(90deg, #f7a6d7, #d065a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+}
+
+body.dark-mode .projects-title {
+  color: #832851;
+   background: linear-gradient(90deg, #b04a75, #832851); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

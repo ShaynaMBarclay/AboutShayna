@@ -25,7 +25,7 @@ function Projects() {
     const projects = [
        {
 
-            id: 1.49234023,
+            id: 1.89234023,
             title: "Pathfinder's Tale",
             image: pathfinder,
             description: `Pathfinder’s Tale is a gamified travel storytelling experience built in just four days for the Storyblok Hackathon. 
@@ -109,7 +109,7 @@ function Projects() {
              },
                 {
 
-            id: 1.4,
+            id: 4.45345345,
             title: "Samantha's Digital Portfolio",
             image: samport,
             description: `A sleek one-page React app designed to showcase a hairstylist’s work, personality, and booking info in a modern, animated format. 
@@ -118,7 +118,7 @@ function Projects() {
             link: "https://samanthakerivan.netlify.app/"
              },
         {
-            id: 1.4,
+            id: 1.6464353,
             title: "LooksByLil Digital Portfolio",
             image: lillyport,
             description: `This portfolio is a vibrant one-page React app created for a barber/cosmetologist to showcase their work and style. 
@@ -190,7 +190,7 @@ function Projects() {
     ];
   return (
     <div className="my-projects">
-      <h2> My Projects</h2>
+      <h2 className="projects-title">My Coding Masterpieces</h2>
       <div className="projects-container">
         {projects.map((project, index) => (
           <div
