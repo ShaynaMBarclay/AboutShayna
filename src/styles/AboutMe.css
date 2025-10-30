@@ -119,6 +119,12 @@
 .skill-box:nth-child(4) {
   animation-delay: 0.8s;
 }
+.skill-box:nth-child(5) {
+  animation-delay: 1s;
+}
+.skill-box:nth-child(6) {
+  animation-delay: 1.2s;
+}
 
 
 .skill-icon {
@@ -141,13 +147,13 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-family: "Roboto Mono", serif;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   transition: color 0.3s, transform 0.2s;
   border-radius: 3rem;
   margin-top: 0.5rem;
   border: 3px solid rgb(0, 0, 0);
-  padding: 1rem 0.9rem;
+  padding: 1rem 1rem !important;
   cursor: pointer;
   width: auto;
   height: auto;

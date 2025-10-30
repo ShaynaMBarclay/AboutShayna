@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import pfp from '../assets/pfpbw.jpeg';
-import resume from "../assets/Shayna_Barclay_Resume2025.pdf"
+import resume from "../assets/SBResume.pdf"
 
 function HomePage() {
     return (
@@ -12,7 +12,7 @@ function HomePage() {
                 <img src={pfp} alt="Shayna's Profile" className="profile-picture" />
 
 
-                <h2> I am a Full-Stack Web Developer with a love for creativity and innovation.</h2>
+                <h2>Full-Stack Web Developer | Code, creativity & caffeine powered ideas☕</h2>
                 </section>
 
               <section className="buttons-homepage">
