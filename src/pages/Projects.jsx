@@ -7,7 +7,7 @@ import pixelpet from "../assets/pixelpet.png";
 import frames from "../assets/Frames.png";
 import crbarclay from "../assets/crbarclay.png";
 import journal from "../assets/journal.png";
-import samport from "../assets/samport.png";
+import samport from "../assets/sam.png";
 import angyportal from "../assets/angyportal.png";
 import lillyport from "../assets/lillysport.png";
 import colorfulcourt from "../assets/colorfulcourt.png";
