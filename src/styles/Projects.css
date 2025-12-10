@@ -152,3 +152,34 @@ body.dark-mode .projects-title {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.projects-filter {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: 0.8rem 1.5rem;
+  border: 3px solid #000;
+  border-radius: 50px;
+  background-color: #ae7c9a;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.filter-btn:hover {
+  background-color: #ffcfec;
+  color: #000;
+}
+
+.filter-btn.active {
+  background-color: #dca0c4;
+  color: #000;
+  border: 3px solid #000;
+}
+
