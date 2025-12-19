@@ -39,9 +39,7 @@ function Contact() {
         <div className="contact-page">
             <div className="contact-info">
             <h2>Contact Me!</h2>
-            <p>
-                <FontAwesomeIcon icon={faPhone} />  fr: +33 6 95 26 81 75
-            </p>
+            <p>For collaborations and business inquiries only.</p>
             <p>
                 <FontAwesomeIcon icon={faPhone} />  us: +1 240 869 0958
             </p>
