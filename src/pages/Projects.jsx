@@ -80,7 +80,8 @@ Built with React, Vite, JavaScript, and Node.js.`,
 
   return (
     <div className="my-projects">
-      <h2 className="projects-title">My Coding Masterpieces</h2>
+      <h2 className="projects-title">A few of my masterpieces ✧˖°</h2>
+      <p>Not everything I create is listed here. Have an idea you dont see? Tell me about it!</p>
 
       {/* Filter Buttons */}
       <div className="projects-filter">
