@@ -17,17 +17,10 @@ function HomePage() {
 
               <section className="buttons-homepage">
                    <Link to="/about-me" className="see-more-link"> About Me</Link> 
-                   <a
-                       href={resume}
-                       download="ShaynaBarclay_Resume"
-                       className="download-button"
-                       >
-                        Download my Resume
-                       </a>
+                  <Link to="/projects" className="download-button"> View My Work</Link>
                        </section>
                
-            </section>
-            
+            </section> 
         </div>
     );
 }
