@@ -44,7 +44,7 @@ function Contact() {
                 <FontAwesomeIcon icon={faPhone} />  us: +1 240 869 0958
             </p>
             <p>
-                <FontAwesomeIcon icon={faEnvelope} />  shaynambarclay@gmail.com
+                <FontAwesomeIcon icon={faEnvelope} />  sitesbyshayna@gmail.com
             </p>
             <p>
                 <a href="https://www.linkedin.com/in/shaynambarclay/" target="_blank" rel="noopener noreferrer">
