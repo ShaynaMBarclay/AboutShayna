@@ -73,9 +73,9 @@ function AboutMe() {
 
                 Hey there! I’m Shayna, a U.S.-based full-stack web developer who loves bringing ideas to life through clean code, clever design, and a touch of creative chaos. A graduate of Ironhack France, I blend technical depth with a designer’s eye to craft digital experiences that actually feel good to use.
 
-                I speak fluent JavaScript (and enough TypeScript to keep things civilized), and I build with tools like React, Vite, Node.js, and MongoDB, Firebase, plus a growing curiosity for all things AI.
+                I speak fluent JavaScript (and enough TypeScript to keep things civilized), and I build with tools like React, Vite, Node.js, and MongoDB, Firebase.
 
-               I’ve created everything from moon + tarot-inspired web experience that blends tech with intuition, to AI-powered mood tracking journal, to a skincare app that helps users understand their routine, each focused on one thing: making tech feel more human and solving the everyday problems we often overlook.
+               I’ve created everything from moon + tarot-inspired web experience that blends tech with intuition, to a mood tracking journal, to a skincare app that helps users understand their routine, each focused on one thing: making tech feel more human and solving the everyday problems we often overlook.
 
                I thrive in remote, collaborative environments where ideas bounce freely and good humor fuels great work. If you’re into building thoughtful, user-first digital experiences, let’s chat and make something people will remember.
                 </p>  
