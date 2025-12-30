@@ -73,11 +73,11 @@ function AboutMe() {
 
 A graduate of Ironhack France, I combine strong technical foundations with a designer’s mindset to build clean, intuitive, and user-first digital experiences. I work primarily with JavaScript, React, Vite, Node.js, Firebase, and MongoDB, creating modern, scalable solutions that are easy to maintain and enjoyable to use.
 
-My work ranges from immersive, concept-driven web experiences to practical tools like mood-tracking journals and lifestyle apps, all with one goal in mind: making your brand stand out while solving real-world problems.
+My work ranges from immersive, concept-driven web experiences to practical tools like mood-tracking journals and lifestyle apps, all with one goal in mind: making your brand stand out and helping your online presence flourish.
 
-I thrive in remote, collaborative environments and love working closely with clients who value clarity, creativity, and thoughtful execution. Whether you’re launching something new or refining what you already have, I’m here to help bring your vision to life, with clean code, intentional design, and coffee always in hand.
+I thrive in remote, collaborative environments and love working closely with clients who value clarity, creativity, and thoughtful execution. Whether you’re launching something new or refining what you already have, I’m here to help bring your vision to life, with clean code, intentional design, and coffee always in hand of course!
 
-Let’s build something memorable.
+I can't wait to be apart of your journey. Let’s build something memorable.
                 </p>  
                 </div>
 
