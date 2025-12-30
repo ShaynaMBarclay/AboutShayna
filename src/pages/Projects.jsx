@@ -19,12 +19,25 @@ import crim from "../assets/crim.png";
 import pathfinder from "../assets/pathfinder.png";
 import ruby from "../assets/ruby.png";
 import sau from "../assets/sau.png";
+import beautysystem from "../assets/beautysystem.png";
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [filter, setFilter] = useState("all"); 
 
   const projects = [
+
+       {
+  id: 1.353535346475757,
+  title: "Booking System for Beauty Professionals WIP",
+  image: beautysystem, 
+  category: "client",
+  description: `Coming Soon,
+A modern booking platform built specifically for beauty professionals. Effortlessly manage appointments, clients, and availability with a clean, intuitive experience—designed to save time and keep the business running smoothly.
+
+Built with React, Vite, JavaScript, and Node.js.`,
+  link: ""
+},
     {
   id: 1.777,
   title: "Sáu (Le 6) Antibes",
@@ -33,6 +46,7 @@ function Projects() {
   description: `A refined, mobile-first restaurant website designed for Sáu (Le 6) Antibes, blending modern clean designs with an edgy feel. Built with React (Vite, JavaScript) and custom CSS, the site highlights the restaurant’s concept, menu, and atmosphere through smooth galleries, responsive layouts, and carefully tuned typography. Performance and mobile optimization were a key focus, ensuring fast load times and a seamless experience across all devices. The result is a polished, brand-forward digital presence tailored to an upscale dining experience.`,
   link: "https://saule6antibes.netlify.app/"
 },
+
     { id: 1.645535433253, title: "Élevage des Ruby de Jade", image: ruby, category: "client", description: `A responsive, professional website built for a French dog breeder to showcase dogs, litters, and pedigrees. Developed with React (Vite, JavaScript), it features interactive pedigree trees, dynamic galleries, and a mobile-friendly design. Includes a secure admin portal that allows the client to manage content, update news, and edit site details independently, no additional assistance required.`, link: "https://elevage-des-ruby-de-jade.netlify.app/" },
     { id: 1.64543253, title: "Moon & Cards", image: moon, category: "personal", description: `Moon and Cards is a full-stack web app that lets users ask questions, draw tarot cards, and receive interactive readings. Built with React (Vite) and an Express/Node.js API, it’s deployed on Netlify and Render, showcasing my ability to design and deploy responsive, end-to-end applications.`, link: "https://lune.cards/" },
     { id: 1.6453, title: "The Skindex Analyzer", image: skindex, category: "personal", description: `Skindex Analyzer is a full-stack skincare analysis web app built with React and Firebase, integrating Google's Gemini API for intelligent product evaluation. Users input their skincare routine, and the app provides a personalized analysis, ideal usage times, potential ingredient conflicts, and AM/PM regimen suggestions. Additional features include email export, emoji-enhanced summaries, and a mobile-first responsive design.`, link: "https://skindexanalyzer.com/" },
