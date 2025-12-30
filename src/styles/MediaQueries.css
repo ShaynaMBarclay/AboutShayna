@@ -1,13 +1,160 @@
-
 /* MEDIA QUERIES */
 
-/*TABLETS*/
+/* ================= VERY SMALL PHONES (Galaxy Z Fold outer, older iPhones, 320px) ================= */
+@media screen and (max-width: 360px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 
+  /* NAVBAR */
+  .vertical-navbar {
+    left: 0.4rem;
+    right: 0.4rem;
+    padding: 0.3rem 0.9rem;
+    max-width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;        /* keeps highlight from bleeding out */
+    box-sizing: border-box;
+  }
+
+  .navbar-links {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 6px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-links a {
+    font-size: 0.8rem;
+    padding: 0 0.45rem;
+    white-space: nowrap;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    box-sizing: border-box;
+  }
+
+  /* active/hover highlight stays inside */
+  .navbar-links a.active,
+  .navbar-links a:hover {
+    height: 36px;
+    padding: 0 0.45rem;
+    border-radius: 999px;
+    box-shadow: none;       /* shadows often cause overflow on tiny navbars */
+  }
+
+  .navbar-links svg,
+  .navbar-links img {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* LAYOUT: remove hard max-widths that cause cut-off */
+  .hero,
+  .webdevskills,
+  .contact-page,
+  .my-projects,
+  .project-image,
+  .modal-content,
+  .skill-badge {
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+
+  /* HERO */
+  .hero {
+    margin: 5rem 0.5rem 7rem;
+    padding: 0.6rem;
+    border-radius: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .typing-animation {
+    font-size: 1rem !important;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .typing-animation {
+    animation: typingFold 2.4s steps(16, end) forwards 0.3s, blink 0.7s step-end infinite !important;
+  }
+
+  @keyframes typingFold {
+    from {
+      width: 0;
+    }
+    to {
+      width: 16ch;
+    }
+  }
+
+  .profile-picture {
+    width: 9.5rem;
+    height: 9.5rem;
+    max-width: 9.5rem;
+    max-height: 9.5rem;
+    margin-top: 0.4rem !important;
+  }
+
+  .about-me {
+    padding: 4rem 0.9rem;
+  }
+
+  .webdevskills {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .skill-badge {
+    padding: 1rem;
+  }
+
+  .contact-info {
+    padding: 1.1rem;
+    font-size: 15px;
+  }
+
+  .contact-form-container {
+    padding: 1.3rem;
+  }
+
+  button {
+    padding: 0.9rem;
+    font-size: 14px;
+  }
+
+  /* Dark mode toggle */
+  .darkmode-topbar {
+    top: 6rem;
+  }
+
+  .darkmode-toggle {
+    right: 0.6rem;
+    bottom: 1.5rem;
+  }
+}
+
+/*TABLETS*/
 @media (min-width: 768px) and (max-width: 1025px) {
   .vertical-navbar {
     width: auto;
     max-width: 450px;
-    margin: 1rem auto; 
+    margin: 1rem auto;
     left: 0;
     right: 0;
     position: relative;
@@ -17,9 +164,9 @@
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-   }
+  }
 
-   /* HER0 SECTION */
+  /* HERO SECTION */
   .hero {
     margin: 1rem;
     padding: 1rem;
@@ -30,7 +177,7 @@
   }
 
   .profile-picture {
-    width: 260px;  
+    width: 260px;
     height: 300px;
     margin: 2rem;
   }
@@ -39,7 +186,7 @@
     margin-bottom: 60px;
   }
 
-   /*ABOUT ME*/
+  /*ABOUT ME*/
   .about-me {
     font-size: 22px;
     margin: 3rem 1rem 2rem 2rem;
@@ -51,13 +198,13 @@
 
   .skills-boxes {
     display: flex;
-  flex-direction: column;
-  gap: 1rem; 
-  margin: 1rem 2rem;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 2rem;
   }
 
   .button-aboutme:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
   }
 
   /* SKILLS */
@@ -66,79 +213,73 @@
     margin: 2rem 2rem 1rem;
     padding: 2rem;
     font-size: 16px;
-    
   }
 
   .skill-badge {
-   display: grid;
-   grid-template-columns: 1fr 1fr; 
-   gap: 1rem 2rem; 
-   margin: 1rem;
-   padding: 1rem 1rem 1rem 0.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 2rem;
+    margin: 1rem;
+    padding: 1rem 1rem 1rem 0.2rem;
   }
 
   .skill-badge .badge span {
-  font-size: 1rem;
+    font-size: 1rem;
   }
 
   .skill-badge .badge small {
-  margin: 0.3rem;
-  font-size: 1rem;
+    margin: 0.3rem;
+    font-size: 1rem;
   }
 
-    /* CONTACT */
-    
-    /* Contact Information */
-    .contact-info {
-      font-size: 22px;
-      padding: 50px;
-      max-width: 100%;
-    }
+  /* CONTACT */
+  .contact-info {
+    font-size: 22px;
+    padding: 50px;
+    max-width: 100%;
+  }
 
-    /* Contact Form */
-    .contact-form-container {
-      padding: 44px;
-      width: 100%;
-      
-    }
+  .contact-form-container {
+    padding: 44px;
+    width: 100%;
+  }
 
-    .contact-form {
-      gap: 12px;
-    }
+  .contact-form {
+    gap: 12px;
+  }
 
-    button {
-      padding: 1.5rem;
-      font-size: 1.5rem;
-      border-radius: 5px;
-    }
+  button {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
 
-    .darkmode-topbar {
-      display: none;
-    }
+  .darkmode-topbar {
+    display: none;
+  }
 }
 
 /* PHONES */
-
 @media screen and (min-width: 300px) and (max-width: 767px) {
   .vertical-navbar {
     padding: 0.6rem;
     left: 2rem;
     right: 2rem;
     max-width: 30rem;
-    bottom: 1rem;           
+    bottom: 1rem;
     top: auto;
     z-index: 99999;
-    background-color: #ffcfec
+    background-color: #ffcfec;
   }
 
   .navbar-links {
     flex-direction: row;
     gap: 7px;
-   }
+  }
 
-   /* HER0 SECTION */
+  /* HERO SECTION */
   .hero {
-    margin:  5rem 0.1rem 7rem;
+    margin: 5rem 0.1rem 7rem;
     max-width: 22rem;
     border-radius: 2.7rem;
     padding: 0.5rem;
@@ -148,26 +289,13 @@
     font-size: 33px;
   }
 
-  /* Responsive fix for small screens */
-@media (max-width: 600px) {
-  .typing-animation {
-    font-size: 1.5rem !important;
-    animation: typingMobile 3s steps(22, end) forwards 0.4s, blink 0.7s step-end infinite;
-  }
-
-  @keyframes typingMobile {
-    from { width: 0 }
-    to { width: 22ch; } 
-  }
-}
-
   .profile-picture {
-    width: 12rem;  
+    width: 12rem;
     height: 12rem;
-    border-radius: 50%;  
-    object-fit: cover;  
+    border-radius: 50%;
+    object-fit: cover;
     margin-top: 0.7rem !important;
-}
+  }
 
   .middle-hero {
     margin: 0.1rem 0.2rem 0.1rem;
@@ -185,12 +313,11 @@
   }
 
   .profile-picture {
-    max-width: 11rem;  
+    max-width: 11rem;
     max-height: 11rem;
     margin-top: -25px;
     margin-bottom: 15px;
-    }
-
+  }
 
   .buttons-homepage a {
     font-size: 15px;
@@ -199,25 +326,24 @@
     border-radius: 40px;
   }
 
-   /*ABOUT ME*/
+  /*ABOUT ME*/
   .about-me {
     display: flex;
-	  flex-direction: column;
-	  flex-wrap: nowrap;
-	  justify-content: center;
-	  align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
     padding: 5rem 1rem;
     max-width: 22rem;
   }
- 
-  
+
   .skills-boxes {
     display: flex;
-	  flex-direction: column;
-	  flex-wrap: nowrap;
-	  justify-content: center;
-	  align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .button-aboutme {
@@ -229,7 +355,6 @@
     border-radius: 45px;
   }
 
-
   /* SKILLS */
   .webdevskills {
     border-radius: 36px;
@@ -237,115 +362,130 @@
     padding: 3rem 4rem 4rem 3rem;
     font-size: 14px;
     display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 22rem;
   }
 
   .skill-badge {
     display: flex;
-	  flex-direction: column;
-	  flex-wrap: nowrap;
-	  justify-content: center;
-	  align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     margin: 0.1rem;
     padding: 2rem;
     max-width: 22rem;
   }
 
-    /* CONTACT */
-    .contact-page {
+  /* CONTACT */
+  .contact-page {
     margin: 4rem 1rem 6rem;
     padding: 1rem;
     display: flex;
-	  flex-direction: column;
-	  flex-wrap: nowrap;
-	  justify-content: center;
-	  align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     max-width: 22rem;
-    }
+  }
 
-    /* Contact Information */
-    .contact-info {
-      padding: 1.6rem;
-      display: flex;
-	   flex-direction: column;
-	   flex-wrap: nowrap;
-	   justify-content: center;
-     font-size: 16px;
-     max-width: 100%;
-    }
+  .contact-info {
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 16px;
+    max-width: 100%;
+  }
 
-    /* Contact Form */
-    .contact-form-container {
-      font-size: 16px;
-      padding: 3rem;
-      width: 100%;
-    }
+  .contact-form-container {
+    font-size: 16px;
+    padding: 3rem;
+    width: 100%;
+  }
 
-    .contact-form {
-      gap: 12px;
-    }
+  .contact-form {
+    gap: 12px;
+  }
 
-    button {
-      padding: 1rem;
-      font-size: 15px;
-      border-radius: 5px;
-    }
+  button {
+    padding: 1rem;
+    font-size: 15px;
+    border-radius: 5px;
+  }
 
-    /* PROJECTS */
-    .my-projects {
-        margin: 4rem 0;
-        display: flex;
-        flex-direction: column;
-        max-width: 22rem;
-    }
+  /* PROJECTS */
+  .my-projects {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+  }
 
-    .project-image {
-      margin: 0.1rem;
-      padding: 0.1rem;
-      max-width: 22rem;
-    }
+  .project-image {
+    margin: 0.1rem;
+    padding: 0.1rem;
+    max-width: 22rem;
+  }
 
-    .modal-content {
-      font-size: 14px;
-      display: flex;
-      flex-direction: column;
-     flex-wrap: nowrap;
-     justify-content: center;
-     align-items: center;
-     padding: 2rem;
-      max-width: 22rem;
-      z-index: 8888
-    }
+  .modal-content {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-width: 22rem;
+    z-index: 8888;
+  }
 
-    .project-btn {
-      font-size: 15px;
-      padding: 0.9rem;
-    }
+  .project-btn {
+    font-size: 15px;
+    padding: 0.9rem;
+  }
 
-      .darkmode-topbar {
-        position: relative;
-        top: 6.5rem;
-        right: auto;
-        width: 100%;
-        justify-content: center;
-      }
+  .darkmode-topbar {
+    position: relative;
+    top: 6.5rem;
+    right: auto;
+    width: 100%;
+    justify-content: center;
+  }
 
-      .darkmode-toggle {
-        position: absolute;
-        bottom: 2rem;
-        right: 1rem;
-        margin: 0.2rem;
-        background: none;
-        border-radius: 10rem;
-        font-size: 1.3rem;
-        cursor: pointer;
-      }
-      
+  .darkmode-toggle {
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+    margin: 0.2rem;
+    background: none;
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
 }
 
+@media (max-width: 600px) {
+  .typing-animation {
+    font-size: 1.15rem !important;
+    animation: typingMobile 2.8s steps(18, end) forwards 0.3s, blink 0.7s step-end infinite !important;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  @keyframes typingMobile {
+    from {
+      width: 0;
+    }
+    to {
+      width: 18ch;
+    }
+  }
+}
 
 /* Tablet & Mobile */
 @media (max-width: 1024px) {
@@ -358,13 +498,12 @@
   .filter-btn {
     font-size: 12px;
     padding: 0.4rem 0.8rem;
-    
   }
 }
 
 @media (max-width: 768px) {
   .projects-filter {
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     justify-content: center;
   }
 
@@ -373,6 +512,7 @@
     padding: 0.3rem 0.6rem;
   }
 }
+
 @media (max-width: 1024px) {
   body.dark-mode .filter-btn {
     font-size: 12px;
