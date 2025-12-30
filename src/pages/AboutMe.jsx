@@ -69,15 +69,15 @@ function AboutMe() {
             
                 <div className="divider"></div>
                     <div className="about-text">
-             <p>Full-Stack Web Developer | React & JavaScript Enthusiast | Creative Technologist (with coffee always in hand)
+             <p>Hey, I’m Shayna! a U.S.-based freelance full-stack web developer helping individuals, creatives, and small businesses turn ideas into thoughtful, high-performing websites and web apps.
 
-                Hey there! I’m Shayna, a U.S.-based full-stack web developer who loves bringing ideas to life through clean code, clever design, and a touch of creative chaos. A graduate of Ironhack France, I blend technical depth with a designer’s eye to craft digital experiences that actually feel good to use.
+A graduate of Ironhack France, I combine strong technical foundations with a designer’s mindset to build clean, intuitive, and user-first digital experiences. I work primarily with JavaScript, React, Vite, Node.js, Firebase, and MongoDB, creating modern, scalable solutions that are easy to maintain and enjoyable to use.
 
-                I speak fluent JavaScript (and enough TypeScript to keep things civilized), and I build with tools like React, Vite, Node.js, and MongoDB, Firebase.
+My work ranges from immersive, concept-driven web experiences to practical tools like mood-tracking journals and lifestyle apps, all with one goal in mind: making your brand stand out while solving real-world problems.
 
-               I’ve created everything from moon + tarot-inspired web experience that blends tech with intuition, to a mood tracking journal, to a skincare app that helps users understand their routine, each focused on one thing: making tech feel more human and solving the everyday problems we often overlook.
+I thrive in remote, collaborative environments and love working closely with clients who value clarity, creativity, and thoughtful execution. Whether you’re launching something new or refining what you already have, I’m here to help bring your vision to life, with clean code, intentional design, and coffee always in hand.
 
-               I thrive in remote, collaborative environments where ideas bounce freely and good humor fuels great work. If you’re into building thoughtful, user-first digital experiences, let’s chat and make something people will remember.
+Let’s build something memorable.
                 </p>  
                 </div>
 
