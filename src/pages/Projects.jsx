@@ -20,6 +20,7 @@ import pathfinder from "../assets/pathfinder.png";
 import ruby from "../assets/ruby.png";
 import sau from "../assets/sau.png";
 import beautysystem from "../assets/beautysystem.png";
+import shaysworld from "../assets/shaysworld.png";
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -45,6 +46,15 @@ Built with React, Vite, JavaScript, and Node.js.`,
   category: "client",
   description: `A refined, mobile-first restaurant website designed for Sáu (Le 6) Antibes, blending modern clean designs with an edgy feel. Built with React (Vite, JavaScript) and custom CSS, the site highlights the restaurant’s concept, menu, and atmosphere through smooth galleries, responsive layouts, and carefully tuned typography. Performance and mobile optimization were a key focus, ensuring fast load times and a seamless experience across all devices. The result is a polished, brand-forward digital presence tailored to an upscale dining experience.`,
   link: "https://saule6antibes.netlify.app/"
+},
+
+    {
+  id: 5.3635353,
+  title: "My Personal site/Template shop",
+  image: shaysworld, 
+  category: "personal",
+  description: `My personal website where you can finds all things me when I'm off the clock! This is where I really let my creative freedom shine. You will also find my custom link in bio template shop.`,
+  link: "https://shays.world/"
 },
 
     { id: 1.645535433253, title: "Élevage des Ruby de Jade", image: ruby, category: "client", description: `A responsive, professional website built for a French dog breeder to showcase dogs, litters, and pedigrees. Developed with React (Vite, JavaScript), it features interactive pedigree trees, dynamic galleries, and a mobile-friendly design. Includes a secure admin portal that allows the client to manage content, update news, and edit site details independently, no additional assistance required.`, link: "https://elevage-des-ruby-de-jade.netlify.app/" },
