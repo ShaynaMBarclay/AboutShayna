@@ -53,7 +53,7 @@ Built with React, Vite, JavaScript, and Node.js.`,
   title: "My Personal site/Template shop",
   image: shaysworld, 
   category: "personal",
-  description: `My personal website where you can finds all things me when I'm off the clock! This is where I really let my creative freedom shine. You will also find my custom link in bio template shop.`,
+  description: `My personal website where you can finds all things me when I'm off the clock! This is where I really let my creative freedom shine. You will also find my custom link in bio template shop. Built with Javascript, React, and custom CSS`,
   link: "https://shays.world/"
 },
 

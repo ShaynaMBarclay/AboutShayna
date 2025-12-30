@@ -77,7 +77,7 @@ My work ranges from immersive, concept-driven web experiences to practical tools
 
 I thrive in remote, collaborative environments and love working closely with clients who value clarity, creativity, and thoughtful execution. Whether you’re launching something new or refining what you already have, I’m here to help bring your vision to life, with clean code, intentional design, and coffee always in hand of course!
 
-I can't wait to be apart of your journey. Let’s build something memorable.
+I can't wait to be apart of your journey. Let’s build something memorable ♡♡♡
                 </p>  
                 </div>
 

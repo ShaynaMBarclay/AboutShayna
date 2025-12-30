@@ -6,7 +6,7 @@ import backend from "../assets/backend.png";
 function Skills() {
     return (
       <div className="webdevskills">
-        <h2 className="skills-title">Where Creativity Meets Code</h2>
+        <h2 className="skills-title">My Tech Stack ⚙︎</h2>
         <div className="skill-badge">
           <SkillBadge 
             label="JavaScript" 
