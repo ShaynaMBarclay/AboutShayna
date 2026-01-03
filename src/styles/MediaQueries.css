@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;        /* keeps highlight from bleeding out */
+    overflow: hidden;      
     box-sizing: border-box;
   }
 
@@ -43,13 +43,13 @@
     box-sizing: border-box;
   }
 
-  /* active/hover highlight stays inside */
   .navbar-links a.active,
   .navbar-links a:hover {
-    height: 36px;
+    height: 37px;
+    width: 46px;
     padding: 0 0.45rem;
-    border-radius: 999px;
-    box-shadow: none;       /* shadows often cause overflow on tiny navbars */
+    border-radius: 999px !important;
+    box-shadow: none;    
   }
 
   .navbar-links svg,
@@ -57,8 +57,7 @@
     width: 16px;
     height: 16px;
   }
-
-  /* LAYOUT: remove hard max-widths that cause cut-off */
+  
   .hero,
   .webdevskills,
   .contact-page,
@@ -68,40 +67,19 @@
   .skill-badge {
     max-width: 100%;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
     box-sizing: border-box;
   }
 
   /* HERO */
   .hero {
-    margin: 5rem 0.5rem 7rem;
     padding: 0.6rem;
     border-radius: 2rem;
   }
 
   .hero h1 {
-    font-size: 28px;
-  }
-
-  .typing-animation {
-    font-size: 1rem !important;
-    max-width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
-  .typing-animation {
-    animation: typingFold 2.4s steps(16, end) forwards 0.3s, blink 0.7s step-end infinite !important;
-  }
-
-  @keyframes typingFold {
-    from {
-      width: 0;
-    }
-    to {
-      width: 16ch;
-    }
+    font-size: 20px !important;
   }
 
   .profile-picture {
@@ -468,24 +446,6 @@
   }
 }
 
-@media (max-width: 600px) {
-  .typing-animation {
-    font-size: 1.15rem !important;
-    animation: typingMobile 2.8s steps(18, end) forwards 0.3s, blink 0.7s step-end infinite !important;
-    max-width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
-  @keyframes typingMobile {
-    from {
-      width: 0;
-    }
-    to {
-      width: 18ch;
-    }
-  }
-}
 
 /* Tablet & Mobile */
 @media (max-width: 1024px) {
