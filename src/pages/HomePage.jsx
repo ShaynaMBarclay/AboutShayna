@@ -6,13 +6,17 @@ function HomePage() {
     return (
         <div className="home-page">
             <section className="hero">
-            <h1 className="typing-animation">Hello! I'm Shayna!👋</h1>
+             <h1 className="sparkle-sweep">
+             <span data-text="Hello! I'm Shayna!👋">Hello! I'm Shayna!👋</span>
+             </h1>
+
+
               
               <section className="middle-hero">
                 <img src={pfp} alt="Shayna's Profile" className="profile-picture" />
 
 
-                <h2>Full-Stack Web Developer | Code, creativity & caffeine powered ideas☕</h2>
+                <h2>Full-Stack Web Developer | Helping Small Businesses Build Their Brands Through Clean, Creative Websites</h2>
                 </section>
 
               <section className="buttons-homepage">
