@@ -1,32 +1,48 @@
 import { useEffect, useState } from "react";
 
 function DarkModeToggle() {
-const [isDark, setIsDark] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
-useEffect(() => {
+  useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     if (storedTheme === "dark") {
-        document.body.classList.add("dark-mode");
-        setIsDark(true);
+      document.body.classList.add("dark-mode");
+      setIsDark(true);
     }
-}, []);
+  }, []);
 
-const toggleDarkMode = () => {
+  const toggleDarkMode = () => {
     const body = document.body;
 
-    if (isDark) {
-        body.classList.remove("dark-mode");
-        localStorage.setItem("theme", "light");
-    } else {
+    // Disable transitions for one frame
+    body.classList.add("disable-transitions");
+
+    requestAnimationFrame(() => {
+      const nextIsDark = !isDark;
+
+      if (nextIsDark) {
         body.classList.add("dark-mode");
         localStorage.setItem("theme", "dark");
-    }
-    setIsDark(!isDark);
-};
+      } else {
+        body.classList.remove("dark-mode");
+        localStorage.setItem("theme", "light");
+      }
 
-return (
+      setIsDark(nextIsDark);
+
+      requestAnimationFrame(() => {
+        body.classList.remove("disable-transitions");
+      });
+    });
+  };
+
+  return (
     <div className="darkmode-topbar">
-      <button className="darkmode-toggle" onClick={toggleDarkMode}>
+      <button
+        className="darkmode-toggle"
+        onClick={toggleDarkMode}
+        aria-label="Toggle dark mode"
+      >
         {isDark ? "☀️" : "🌙"}
       </button>
     </div>
