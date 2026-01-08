@@ -28,17 +28,6 @@ function Projects() {
 
   const projects = [
 
-       {
-  id: 1.353535346475757,
-  title: "Booking System for Beauty Professionals WIP",
-  image: beautysystem, 
-  category: "client",
-  description: `Coming Soon,
-A modern booking platform built specifically for beauty professionals. Effortlessly manage appointments, clients, and availability with a clean, intuitive experience—designed to save time and keep the business running smoothly.
-
-Built with React, Vite, JavaScript, and Node.js.`,
-  link: ""
-},
     {
   id: 1.777,
   title: "Sáu (Le 6) Antibes",
@@ -75,6 +64,8 @@ Built with React, Vite, JavaScript, and Node.js.`,
     { id: 2, title: "Adopt Me", image: adoptme, category: "personal", description: `Adopt Me was my second project at Ironhack, showcasing my expertise in web development. This website is built using React with functional components and hooks, offering a seamless and dynamic user experience across multiple views where Users can view pets for adoption, as well as add an animal that needs adopting.`, link: "https://adoptmemeow.netlify.app/" },
     { id: 4, title: "Frames & Levels", image: frames, category: "personal", description: `Frames & Levels is my third project at Ironhack, a MERN-stack gaming platform where users curate their game collections, track owned and wishlist titles, and share reviews and thoughts on each game. The platform helps gamers rediscover old favorites and explore new adventures. Built as a Single Page Application (SPA) with React, it features a REST API backend using ExpressJS, MongoDB, and Mongoose, supporting full CRUD functionality across multiple database models. Users can sign up, log in, and manage their collections securely with encrypted authentication.`, link: "https://frames-and-levels.netlify.app/" }
   ];
+
+  
 
   const filteredProjects = filter === "all" ? projects : projects.filter(p => p.category === filter);
 

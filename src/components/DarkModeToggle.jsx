@@ -14,7 +14,6 @@ function DarkModeToggle() {
   const toggleDarkMode = () => {
     const body = document.body;
 
-    // Disable transitions for one frame
     body.classList.add("disable-transitions");
 
     requestAnimationFrame(() => {
