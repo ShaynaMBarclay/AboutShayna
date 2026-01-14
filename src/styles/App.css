@@ -19,6 +19,19 @@ body {
   transition: background-color 0.85s ease, color 0.85s ease;
 }
 
+html, body {
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .page-container {
   min-height: 100vh;
   width: 100%;
@@ -30,47 +43,45 @@ body {
 	align-content: center;
 }
 
+
 /* ------------------------------
    Custom Scrollbar - Light Mode
 ------------------------------- */
-body::-webkit-scrollbar {
+
+::-webkit-scrollbar {
   width: 12px;
 }
 
-body::-webkit-scrollbar-track {
-  background: #fde5f8; 
+::-webkit-scrollbar-track {
+  background: #fde5f8;
   border-radius: 10px;
 }
 
-body::-webkit-scrollbar-thumb {
-  background-color: #d27aa6; 
+::-webkit-scrollbar-thumb {
+  background-color: #d27aa6;
   border-radius: 10px;
-  border: 3px solid #fde5f8; 
+  border: 3px solid #fde5f8;
 }
 
-body::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background-color: #b74a7b;
 }
 
 /* ------------------------------
    Custom Scrollbar - Dark Mode
 ------------------------------- */
-body.dark-mode::-webkit-scrollbar {
-  width: 12px;
-}
 
-body.dark-mode::-webkit-scrollbar-track {
-  background: #393237; 
+.dark-mode ::-webkit-scrollbar-track {
+  background: #393237;
   border-radius: 10px;
 }
 
-body.dark-mode::-webkit-scrollbar-thumb {
-  background-color: #5b1936; 
+.dark-mode ::-webkit-scrollbar-thumb {
+  background-color: #5b1936;
   border-radius: 10px;
   border: 3px solid #393237;
 }
 
-body.dark-mode::-webkit-scrollbar-thumb:hover {
+.dark-mode ::-webkit-scrollbar-thumb:hover {
   background-color: #46142a;
 }
-

@@ -21,12 +21,22 @@ import ruby from "../assets/ruby.png";
 import sau from "../assets/sau.png";
 import beautysystem from "../assets/beautysystem.png";
 import shaysworld from "../assets/shaysworld.png";
+import hairstylist from "../assets/hairstylist.png";
 
 function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [filter, setFilter] = useState("all"); 
 
   const projects = [
+
+      {
+  id: 1.777,
+  title: "Hairstylist Website Template",
+  image: hairstylist, 
+  category: "client",
+  description: `A modern, responsive website template and rental platform designed for hairstylists and beauty professionals. Built with React and Vite, it features a customizable layout, booking/contact section, gallery, location map, and a dynamic sticky navigation system optimized for desktop, tablet, and mobile. Created to help stylists quickly launch a professional online presence without technical complexity.`,
+  link: "https://saule6antibes.netlify.app/"
+},
 
     {
   id: 1.777,
