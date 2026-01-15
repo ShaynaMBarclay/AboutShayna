@@ -35,7 +35,7 @@ function Projects() {
   image: hairstylist, 
   category: "client",
   description: `A modern, responsive website template and rental platform designed for hairstylists and beauty professionals. Built with React and Vite, it features a customizable layout, booking/contact section, gallery, location map, and a dynamic sticky navigation system optimized for desktop, tablet, and mobile. Created to help stylists quickly launch a professional online presence without technical complexity.`,
-  link: "https://saule6antibes.netlify.app/"
+  link: "https://yourbeautysite.netlify.app/"
 },
 
     {
