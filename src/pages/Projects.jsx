@@ -39,7 +39,7 @@ function Projects() {
 },
 
     {
-  id: 1.777,
+  id: 1.477,
   title: "Sáu (Le 6) Antibes",
   image: sau, 
   category: "client",
@@ -48,7 +48,7 @@ function Projects() {
 },
 
 
-    { id: 1.645535433253, title: "Élevage des Ruby de Jade", image: ruby, category: "client", description: `A responsive, professional website built for a French dog breeder to showcase dogs, litters, and pedigrees. Developed with React (Vite, JavaScript), it features interactive pedigree trees, dynamic galleries, and a mobile-friendly design. Includes a secure admin portal that allows the client to manage content, update news, and edit site details independently, no additional assistance required.`, link: "https://elevage-des-ruby-de-jade.fr/" },
+    { id: 2.904345535433253, title: "Élevage des Ruby de Jade", image: ruby, category: "client", description: `A responsive, professional website built for a French dog breeder to showcase dogs, litters, and pedigrees. Developed with React (Vite, JavaScript), it features interactive pedigree trees, dynamic galleries, and a mobile-friendly design. Includes a secure admin portal that allows the client to manage content, update news, and edit site details independently, no additional assistance required.`, link: "https://elevage-des-ruby-de-jade.fr/" },
 
        {
   id: 5.3635353,

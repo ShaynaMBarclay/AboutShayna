@@ -6,6 +6,7 @@
 @import './Projects.css';
 @import './DarkMode.css';
 @import './MediaQueries.css';
+@import "./Ultrawide.css";
 
 * {
   box-sizing: border-box;
